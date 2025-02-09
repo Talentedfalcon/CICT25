@@ -2,21 +2,21 @@ export const Patrons = {
   "Patrons": [
     {
       image: "/assets/images/patrons/p1.png",
-      title: "Prof. M. V. Kartikeyan, Director, IIITDM Kancheepuram   ",
+      title: "Prof. M. V. Kartikeyan",
       description: "Director, IIITDM Kancheepuram",
       socialLinks: {
-        facebook: "https://facebook.com/mukul.sutaone",
-        twitter: "https://twitter.com/mukul_sutaone",
-        instagram: "https://instagram.com/mukul.sutaone",
+        facebook: "https://www.iiitdm.ac.in/people/faculty/kartik@iiitdm.ac.in",
+        linkedin: "#",
+        instagram: "https://instagram.com/mv.karthikeyan",
       },
     },
     {
       image: "/assets/images/patrons/p2.png",
-      title: "Prof. B. S. Moorthy                ",
+      title: "Prof. B. S. Murty",
       description: " Director, IIITDM Kurnool",
       socialLinks: {
-        facebook: "https://facebook.com/bhartendu.singh",
-        twitter: "https://twitter.com/bhartendu_singh",
+        facebook: "https://mme.iitm.ac.in/faculty-inner.php?id=20&fc=1",
+        linkedin: "https://www.linkedin.com/in/b-s-murty-3b1370271/",
         instagram: "https://instagram.com/bhartendu.singh",
       },
     },
@@ -25,8 +25,8 @@ export const Patrons = {
       title: "Prof. Sri Niwas Singh",
       description: "ABV-IIITM, Gwalior              ",
       socialLinks: {
-        facebook: "https://facebook.com/sn.singh",
-        twitter: "https://twitter.com/sn_singh",
+        facebook: "https://www.iiitm.ac.in/index.php/en/component/splms/teacher/prof-sri-niwas",
+        linkedin: "https://www.linkedin.com/in/sri-niwas-singh-963b89247/",
         instagram: "https://instagram.com/sn.singh",
       },
     },
@@ -35,8 +35,8 @@ export const Patrons = {
       title: "Prof. Bhartendu K Singh",
       description: "Director, IIITDM Jabalpur     ",
       socialLinks: {
-        facebook: "https://facebook.com/mv.karthikeyan",
-        twitter: "https://twitter.com/mv_karthikeyan",
+        facebook: "http://faculty.iiitdmj.ac.in/faculty/Bhartendu-K-Singh",
+        linkedin: "https://www.linkedin.com/in/bhartendu-kumar-singh-a0300042/",
         instagram: "https://instagram.com/mv.karthikeyan",
       },
     },
@@ -45,8 +45,8 @@ export const Patrons = {
       title: "Prof. Mukul Sharad Sutaone",
       description: "Director, IIIT Allahabad  ",
       socialLinks: {
-        facebook: "https://facebook.com/dvln.somayajulu",
-        twitter: "https://twitter.com/dvln_somayajulu",
+        facebook: "https://iiita.irins.org/profile/147084",
+        linkedin: "#",
         instagram: "https://instagram.com/dvln.somayajulu",
       },
     },

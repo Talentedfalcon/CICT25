@@ -6,7 +6,7 @@ export const GeneralChair = {
         image: "/assets/images/technical-program-committee/tiwary.jpg",
         socialLinks: {
           facebook: "https://facebook.com/us.tiwary",
-          twitter: "https://twitter.com/us_tiwary",
+          linkedin: "https://linkedin.com/us_tiwary",
           instagram: "https://instagram.com/us.tiwary"
         }
     },
@@ -16,7 +16,7 @@ export const GeneralChair = {
         image: "/assets/images/technical-program-committee/chauhan.jpg",
         socialLinks: {
           facebook: "https://facebook.com/yogesh.chauhan",
-          twitter: "https://twitter.com/yogesh_chauhan",
+          linkedin: "https://linkedin.com/yogesh_chauhan",
           instagram: "https://instagram.com/yogesh.chauhan"
         }
     },
@@ -26,7 +26,7 @@ export const GeneralChair = {
         image: "/assets/images/technical-program-committee/singh.jpg",
         socialLinks: {
           facebook: "https://facebook.com/yn.singh",
-          twitter: "https://twitter.com/yn_singh",
+          linkedin: "https://linkedin.com/yn_singh",
           instagram: "https://instagram.com/yn.singh"
         }
     },
