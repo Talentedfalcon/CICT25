@@ -52,34 +52,20 @@ function SocialMediaCard({ person }) {
               </a>
   
               <a
-                href={person.socialLinks.twitter}
+                href={person.socialLinks.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full border-2 border-black"
               >
                 <div className="rounded-full border-1 border-black flex justify-center items-center h-full">
                 <img
-                  src="/logos/twitter.png"
-                  alt="Twitter Logo"
-                  className="w-6 h-6 object-contain hover:scale-110 transition-transform duration-300 rounded-full"
+                  src="/logos/linkedin.png"
+                  alt="Linkedin Logo"
+                  className="w-10 h-10 object-contain hover:scale-110 transition-transform duration-300 rounded-full"
                 />
                 </div>
               </a>
   
-              <a
-                href={person.socialLinks.instagram}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full border-1 border-black"
-              >
-                <div className="rounded-full border-2 border-black flex justify-center items-center h-full">
-                <img
-                  src="/logos/instagram.png"
-                  alt="Instagram Logo"
-                  className="w-6 h-6 object-contain hover:scale-110 transition-transform duration-300 rounded-full"
-                />
-                </div>
-              </a>
             </div>
           </div>
         </div>

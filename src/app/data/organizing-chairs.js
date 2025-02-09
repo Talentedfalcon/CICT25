@@ -9,7 +9,7 @@ export const OrganizingChairs = {
           description: "Associate Professor, Department of Electronics and Communication Engineering",
           socialLinks: {
             facebook: "https://facebook.com/priyanka.kokil",
-            twitter: "https://twitter.com/priyanka_kokil",
+            linkedin: "https://linkedin.com/priyanka_kokil",
             instagram: "https://instagram.com/priyanka.kokil"
           }
         },
@@ -19,7 +19,7 @@ export const OrganizingChairs = {
           description: "Professor, Department of Computer Science and Engineering",
           socialLinks: {
             facebook: "https://facebook.com/masilamani.v",
-            twitter: "https://twitter.com/masilamani_v",
+            linkedin: "https://linkedin.com/masilamani_v",
             instagram: "https://instagram.com/masilamani.v"
           }
         },
@@ -29,7 +29,7 @@ export const OrganizingChairs = {
           description: "Professor, Department of Mechanical Engineering",
           socialLinks: {
             facebook: "https://facebook.com/sreekumar.m",
-            twitter: "https://twitter.com/sreekumar_m",
+            linkedin: "https://linkedin.com/sreekumar_m",
             instagram: "https://instagram.com/sreekumar.m"
           }
         },

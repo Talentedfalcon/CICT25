@@ -6,7 +6,7 @@ export const Patrons = {
       description: "Director, IIITDM Kancheepuram",
       socialLinks: {
         facebook: "https://www.iiitdm.ac.in/people/faculty/kartik@iiitdm.ac.in",
-        twitter: "#",
+        linkedin: "#",
         instagram: "https://instagram.com/mv.karthikeyan",
       },
     },
@@ -16,7 +16,7 @@ export const Patrons = {
       description: " Director, IIITDM Kurnool",
       socialLinks: {
         facebook: "https://mme.iitm.ac.in/faculty-inner.php?id=20&fc=1",
-        twitter: "https://www.linkedin.com/in/b-s-murty-3b1370271/",
+        linkedin: "https://www.linkedin.com/in/b-s-murty-3b1370271/",
         instagram: "https://instagram.com/bhartendu.singh",
       },
     },
@@ -26,7 +26,7 @@ export const Patrons = {
       description: "ABV-IIITM, Gwalior              ",
       socialLinks: {
         facebook: "https://www.iiitm.ac.in/index.php/en/component/splms/teacher/prof-sri-niwas",
-        twitter: "https://www.linkedin.com/in/sri-niwas-singh-963b89247/",
+        linkedin: "https://www.linkedin.com/in/sri-niwas-singh-963b89247/",
         instagram: "https://instagram.com/sn.singh",
       },
     },
@@ -36,7 +36,7 @@ export const Patrons = {
       description: "Director, IIITDM Jabalpur     ",
       socialLinks: {
         facebook: "http://faculty.iiitdmj.ac.in/faculty/Bhartendu-K-Singh",
-        twitter: "https://www.linkedin.com/in/bhartendu-kumar-singh-a0300042/",
+        linkedin: "https://www.linkedin.com/in/bhartendu-kumar-singh-a0300042/",
         instagram: "https://instagram.com/mv.karthikeyan",
       },
     },
@@ -46,7 +46,7 @@ export const Patrons = {
       description: "Director, IIIT Allahabad  ",
       socialLinks: {
         facebook: "https://iiita.irins.org/profile/147084",
-        twitter: "#",
+        linkedin: "#",
         instagram: "https://instagram.com/dvln.somayajulu",
       },
     },
