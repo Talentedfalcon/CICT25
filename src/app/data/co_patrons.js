@@ -6,8 +6,7 @@ export const Co_Patrons = {
         description: "IIITDM Kancheepuram, Head of the Department, Computer Science and Engineering",
         socialLinks: {
           facebook: "https://www.iiitdm.ac.in/people/faculty/sivaselvanb@iiitdm.ac.in",
-          linkedin: "https://www.linkedin.com/in/siva-selvan-a3a24448/",
-          instagram: "https://instagram.com/mukul.sutaone",
+          linkedin: "https://www.linkedin.com/in/siva-selvan-a3a24448/"
         },
       },
       {
@@ -16,8 +15,7 @@ export const Co_Patrons = {
         description: "IIITDM Kancheepuram, Head of the Department, Electronics and Communication Engineering ",
         socialLinks: {
           facebook: "https://www.iiitdm.ac.in/people/faculty/bcbabu@iiitdm.ac.in",
-          linkedin: "https://www.linkedin.com/in/dr-chitti-babu-b-52a75a89/",
-          instagram: "https://instagram.com/bhartendu.singh",
+          linkedin: "https://www.linkedin.com/in/dr-chitti-babu-b-52a75a89/"
         },
       },
       {
@@ -26,8 +24,7 @@ export const Co_Patrons = {
         description: "IIITDM Kancheepuram, Head of the Department, Mechanical Engineering ",
         socialLinks: {
           facebook: "https://www.iiitdm.ac.in/people/faculty/rajab@iiitdm.ac.in",
-          linkedin: "https://www.linkedin.com/in/raja-balakrishnan-50827529/",
-          instagram: "https://instagram.com/sn.singh",
+          linkedin: "https://www.linkedin.com/in/raja-balakrishnan-50827529/"
         },
       },
       {
@@ -36,8 +33,7 @@ export const Co_Patrons = {
         description: "IIITDM Kancheepuram, Head, School of Interdisciplinary Design and Innovation",
         socialLinks: {
           facebook: "https://www.iiitdm.ac.in/people/faculty/sudhir@iiitdm.ac.in",
-          linkedin: "https://www.linkedin.com/in/sudhirvaradarajan/",
-          instagram: "https://instagram.com/mv.karthikeyan",
+          linkedin: "https://www.linkedin.com/in/sudhirvaradarajan/"
         },
       },
       {
@@ -46,8 +42,7 @@ export const Co_Patrons = {
         description: "IIITDM Kancheepuram, Head of the Department, Sciences and Humanities",
         socialLinks: {
           facebook: "https://www.iiitdm.ac.in/people/faculty/nkumar@iiitdm.ac.in",
-          linkedin: "https://www.linkedin.com/in/naveen-kumar-4530a1145/",
-          instagram: "https://instagram.com/dvln.somayajulu",
+          linkedin: "https://www.linkedin.com/in/naveen-kumar-4530a1145/"
         },
       },
     ].sort((a, b) => a.title.localeCompare(b.title)),
