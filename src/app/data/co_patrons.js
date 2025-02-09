@@ -22,7 +22,7 @@ export const Co_Patrons = {
       },
       {
         image: "/assets/images/co_patrons/p3.png",
-        title: "Prof. Raja B,h",
+        title: "Prof. Raja B",
         description: "IIITDM Kancheepuram, Head of the Department, Mechanical Engineering ",
         socialLinks: {
           facebook: "https://www.iiitdm.ac.in/people/faculty/rajab@iiitdm.ac.in",
@@ -32,7 +32,7 @@ export const Co_Patrons = {
       },
       {
         image: "/assets/images/co_patrons/p4.png",
-        title: "Dr. Sudhir Varadrajan,",
+        title: "Dr. Sudhir Varadrajan",
         description: "IIITDM Kancheepuram, Head, School of Interdisciplinary Design and Innovation",
         socialLinks: {
           facebook: "https://www.iiitdm.ac.in/people/faculty/sudhir@iiitdm.ac.in",

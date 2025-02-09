@@ -88,7 +88,7 @@ function SocialMediaCard({ person }) {
         {/* Card Content */}
         <CardContent className="text-center mt-4">
           <CardTitle className="text-primary">{person.title}</CardTitle>
-          <CardDescription>{person.description}</CardDescription>
+          <CardDescription className="mt-4">{person.description}</CardDescription>
         </CardContent>
       </Card>
     );
