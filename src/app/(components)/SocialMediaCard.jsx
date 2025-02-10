@@ -24,11 +24,14 @@ function SocialMediaCard({ person }) {
           onMouseLeave={handleImageClick} // Mobile interaction
           onClick={handleImageClick} // Mobile interaction
         >
-          <img
-            src={person.image}
-            alt={person.title}
-            className="w-full h-auto aspect-[4/3] object-contain transform group-hover:scale-110 transition-transform duration-500"
-          />
+<div className="flex justify-center items-center w-full h-full">
+  <img
+    src={person.image}
+    alt={person.title}
+    className="w-full h-auto aspect-[4/3] object-contain object-center transform group-hover:scale-110 transition-transform duration-500"
+  />
+</div>
+
   
           <div
             className={`
