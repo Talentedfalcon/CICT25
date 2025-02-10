@@ -6,8 +6,7 @@ export const CFIIITSSteeringCommittee = {
       description: "ABV-IIITM, Gwalior",
       socialLinks: {
         facebook: "https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Prof.Aditya",
-        twitter: "https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Prof.Aditya",
-        instagram: "https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Prof.Aditya",
+        linkedin: "https://www.linkedin.com/in/aditya-trivedi-006628113/"
       },
     },
     {
@@ -16,8 +15,7 @@ export const CFIIITSSteeringCommittee = {
       description: "ABV-IIITM, Gwalior",
       socialLinks: {
         facebook: "https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.WWilfredGodfrey",
-        twitter: "https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.WWilfredGodfrey",
-        instagram: "https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.WWilfredGodfrey",
+        linkedin: "https://www.linkedin.com/in/wilfred-godfrey-63b76112/"
       },
     },
     {
@@ -26,8 +24,7 @@ export const CFIIITSSteeringCommittee = {
       description: "IIITDM Kancheepuram",
       socialLinks: {
         facebook: "https://www.iiitdm.ac.in/people/faculty/masila@iiitdm.ac.in",
-        twitter: "https://www.iiitdm.ac.in/people/faculty/masila@iiitdm.ac.in",
-        instagram: "https://www.iiitdm.ac.in/people/faculty/masila@iiitdm.ac.in",
+        linkedin: "https://www.linkedin.com/in/masilamani-vedhanayagam-266b3653/"
       },
     },
     {
@@ -36,8 +33,7 @@ export const CFIIITSSteeringCommittee = {
       description: "IIITDM Jabalpur",
       socialLinks: {
         facebook: "http://faculty.iiitdmj.ac.in/faculty/mbansal",
-        twitter: "http://faculty.iiitdmj.ac.in/faculty/mbansal",
-        instagram: "http://faculty.iiitdmj.ac.in/faculty/mbansal",
+        linkedin: "https://www.linkedin.com/in/matadeen-bansal-9b9aa834/"
       },
     },
     
@@ -47,8 +43,7 @@ export const CFIIITSSteeringCommittee = {
       description: "IIITDM Kurnool",
       socialLinks: {
         facebook: "https://iiitk.ac.in/Dr.-K.-Krishna-Naik/page",
-        twitter: "https://iiitk.ac.in/Dr.-K.-Krishna-Naik/page",
-        instagram: "https://iiitk.ac.in/Dr.-K.-Krishna-Naik/page",
+        linkedin: "https://www.linkedin.com/in/dr-k-krishna-naik-331a9439/"
       },
     },
     {
@@ -57,8 +52,7 @@ export const CFIIITSSteeringCommittee = {
       description: "IIITA",
       socialLinks: {
         facebook: "https://profile.iiita.ac.in/np/",
-        twitter: "https://profile.iiita.ac.in/np/",
-        instagram: "https://profile.iiita.ac.in/np/",
+        linkedin: "#"
       },
     },
     {
@@ -67,8 +61,7 @@ export const CFIIITSSteeringCommittee = {
       description: "IIITDM Kancheepuram",
       socialLinks: {
         facebook: "https://www.iiitdm.ac.in/people/faculty/priyanka@iiitdm.ac.in",
-        twitter: "https://www.iiitdm.ac.in/people/faculty/priyanka@iiitdm.ac.in",
-        instagram: "https://www.iiitdm.ac.in/people/faculty/priyanka@iiitdm.ac.in",
+        linkedin: "https://www.linkedin.com/in/priyanka-kokil-7504b810/"
       },
     },
     {
@@ -77,8 +70,7 @@ export const CFIIITSSteeringCommittee = {
       description: "IIIT Allahabad",
       socialLinks: {
         facebook: "https://iiita.irins.org/profile/102943",
-        twitter: "https://iiita.irins.org/profile/102943",
-        instagram: "https://iiita.irins.org/profile/102943",
+        linkedin: "https://www.linkedin.com/in/rajat-singh-a412186/"
       },
     },
     {
@@ -87,8 +79,7 @@ export const CFIIITSSteeringCommittee = {
       description: "IIITA",
       socialLinks: {
         facebook: "https://it.iiita.ac.in/?pg=facultypage&uid=sk.singh",
-        twitter: "https://it.iiita.ac.in/?pg=facultypage&uid=sk.singh",
-        instagram: "https://it.iiita.ac.in/?pg=facultypage&uid=sk.singh",
+        linkedin: "https://www.linkedin.com/in/satish-k-singh-2b372bba/"
       },
     },
     
@@ -99,12 +90,8 @@ export const CFIIITSSteeringCommittee = {
       description: "IIITDM Kancheepuram",
       socialLinks: {
         facebook: "https://www.iiitdm.ac.in/people/faculty/msk@iiitdm.ac.in",
-        twitter: "https://www.iiitdm.ac.in/people/faculty/msk@iiitdm.ac.in",
-        instagram: "https://www.iiitdm.ac.in/people/faculty/msk@iiitdm.ac.in",
+        linkedin: "https://www.linkedin.com/in/sreekumar-m-40ab586b/"
       },
     },
-   
-    
-    
   ],
 };

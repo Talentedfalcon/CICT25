@@ -6,8 +6,7 @@ export const TechnicalProgramCommittee = {
         image: "/assets/images/technical-program-committee/tiwary.jpg",
         socialLinks: {
           facebook: "https://facebook.com/us.tiwary",
-          linkedin: "https://linkedin.com/us_tiwary",
-          instagram: "https://instagram.com/us.tiwary"
+          linkedin: "https://linkedin.com/us_tiwary"
         }
     },
     {
@@ -16,8 +15,7 @@ export const TechnicalProgramCommittee = {
         image: "/assets/images/technical-program-committee/chauhan.jpg",
         socialLinks: {
           facebook: "https://facebook.com/yogesh.chauhan",
-          linkedin: "https://linkedin.com/yogesh_chauhan",
-          instagram: "https://instagram.com/yogesh.chauhan"
+          linkedin: "https://linkedin.com/yogesh_chauhan"
         }
     },
     {
@@ -26,8 +24,7 @@ export const TechnicalProgramCommittee = {
         image: "/assets/images/technical-program-committee/singh.jpg",
         socialLinks: {
           facebook: "https://facebook.com/yn.singh",
-          linkedin: "https://linkedin.com/yn_singh",
-          instagram: "https://instagram.com/yn.singh"
+          linkedin: "https://linkedin.com/yn_singh"
         }
     },
     {
@@ -36,8 +33,7 @@ export const TechnicalProgramCommittee = {
         image: "/assets/images/technical-program-committee/srivastava.jpg",
         socialLinks: {
           facebook: "https://facebook.com/kumar.srivastava",
-          linkedin: "https://linkedin.com/kumar_srivastava",
-          instagram: "https://instagram.com/kumar.srivastava"
+          linkedin: "https://linkedin.com/kumar_srivastava"
         },
     },
     {
@@ -46,8 +42,7 @@ export const TechnicalProgramCommittee = {
         image: "/assets/images/technical-program-committee/ramakrishnan.jpg",
         socialLinks: {
           facebook: "https://facebook.com/ganesh.ramakrishnan",
-          linkedin: "https://linkedin.com/ganesh_ramakrishnan",
-          instagram: "https://instagram.com/ganesh.ramakrishnan"
+          linkedin: "https://linkedin.com/ganesh_ramakrishnan"
         }
     },
     {
@@ -56,8 +51,7 @@ export const TechnicalProgramCommittee = {
         image: "/assets/images/technical-program-committee/manjunath.jpg",
         socialLinks: {
           facebook: "https://facebook.com/d.manjunath",
-          linkedin: "https://linkedin.com/d_manjunath",
-          instagram: "https://instagram.com/d.manjunath"
+          linkedin: "https://linkedin.com/d_manjunath"
         }
     },
     {
@@ -66,8 +60,7 @@ export const TechnicalProgramCommittee = {
         image: "/assets/images/technical-program-committee/chockalingam.jpg",
         socialLinks: {
           facebook: "https://facebook.com/chockalingam",
-          linkedin: "https://linkedin.com/chockalingam",
-          instagram: "https://instagram.com/chockalingam"
+          linkedin: "https://linkedin.com/chockalingam"
         }
     },
     {
@@ -76,8 +69,7 @@ export const TechnicalProgramCommittee = {
         image: "/assets/images/technical-program-committee/ramakrishna.jpg",
         socialLinks: {
           facebook: "https://facebook.com/ag.ramakrishna",
-          linkedin: "https://linkedin.com/ag_ramakrishna",
-          instagram: "https://instagram.com/ag.ramakrishna"
+          linkedin: "https://linkedin.com/ag_ramakrishna"
         }
     },
     {
@@ -86,8 +78,7 @@ export const TechnicalProgramCommittee = {
         image: "/assets/images/technical-program-committee/bhatnagar.jpg",
         socialLinks: {
           facebook: "https://facebook.com/manav.bhatnagar",
-          linkedin: "https://linkedin.com/manav_bhatnagar",
-          instagram: "https://instagram.com/manav.bhatnagar"
+          linkedin: "https://linkedin.com/manav_bhatnagar"
         }
     }
   ].sort((a, b) => a.title.localeCompare(b.title))
