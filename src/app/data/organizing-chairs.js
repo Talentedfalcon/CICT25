@@ -8,8 +8,8 @@ export const OrganizingChairs = {
           title: "Dr. Priyanka Kokil",
           description: "Associate Professor, Department of Electronics and Communication Engineering",
           socialLinks: {
-            facebook: "https://facebook.com/priyanka.kokil",
-            linkedin: "https://linkedin.com/priyanka_kokil"
+            facebook: "https://www.iiitdm.ac.in/people/faculty/priyanka@iiitdm.ac.in",
+            linkedin: "https://in.linkedin.com/in/priyanka-kokil-7504b810"
           }
         },
         {
@@ -17,8 +17,8 @@ export const OrganizingChairs = {
           title: "Prof. Masilamani V.",
           description: "Professor, Department of Computer Science and Engineering",
           socialLinks: {
-            facebook: "https://facebook.com/masilamani.v",
-            linkedin: "https://linkedin.com/masilamani_v"
+            facebook: "https://www.iiitdm.ac.in/people/faculty/masila@iiitdm.ac.in",
+            linkedin: "https://in.linkedin.com/in/masilamani-vedhanayagam-266b3653"
           }
         },
         {
@@ -26,8 +26,8 @@ export const OrganizingChairs = {
           title: "Prof. Sreekumar M.",
           description: "Professor, Department of Mechanical Engineering",
           socialLinks: {
-            facebook: "https://facebook.com/sreekumar.m",
-            linkedin: "https://linkedin.com/sreekumar_m"
+            facebook: "https://www.iiitdm.ac.in/people/faculty/msk@iiitdm.ac.in",
+            linkedin: "https://in.linkedin.com/in/prof-msk"
           }
         },
       ],
