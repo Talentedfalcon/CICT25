@@ -44,7 +44,7 @@ function SocialMediaCard({ person }) {
               >
                 <div className="rounded-full border-1 border-black flex justify-center items-center h-full">
                 <img
-                  src="/logos/facebook.png"
+                  src="/logos/academia.png"
                   alt="Facebook Logo"
                   className="w-7 h-7 object-contain hover:scale-110 transition-transform duration-300 rounded-full"
                 />
