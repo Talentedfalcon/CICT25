@@ -28,10 +28,9 @@ const Page = () => {
               </ul>
             </div>
             <div className='flex flex-col text-gray-500 border-black border-2 rounded-xl py-5 pl-5 pr-5 my-10 max-w-max'>
-              <div className='my-1 w-auto'>Call for Paper (CFP) released on: .........TBD</div>
-              <div className='my-1'>Submission Deadline: .............TBD</div>
-              <div className='my-1'>Acceptance Notification:..........TBD</div>
-              <div className='my-1'>Camera Ready submission and Mandatory Registration:......TBD</div>
+              <div className='my-1'>Submission Deadline: 31st May 2025</div>
+              <div className='my-1'>Acceptance Notification: 31st July 2025</div>
+              <div className='my-1'>Camera Ready submission and Mandatory Registration: 31st August 2025</div>
             </div>
           </div>
           <div className="relative w-full md:w-1/2 lg:h-[1100px] h-[500px] flex items-start">

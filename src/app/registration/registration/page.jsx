@@ -6,6 +6,15 @@ import feesItems from "@/app/data/feesItems";
 import Card from "@/app/(components)/FeesCard";
 import FAQSection from "@/app/(components)/Faq";
 
+const earlyBirdItems = feesItems.filter(item => item.title.includes("Early Bird"));
+const regularItems = feesItems.filter(item => !item.title.includes("Early Bird"));
+
+const getTitleColor = (title) => {
+  if (title.includes("Student")) return "text-blue-600 font-semibold";
+  if (title.includes("Faculty")) return "text-green-600 font-semibold";
+  return "text-gray-800"; 
+};
+
 const Page = () => {
   return (
     <div className="min-h-screen bg-white flex flex-col items-center gap-6 p-6">
@@ -269,11 +278,11 @@ const Page = () => {
           </ScrollFadeIn>
         </div>
         <ScrollFadeIn>
-  <div className="overflow-x-auto p-4 md:p-6">
-    <table className="w-full border border-gray-300">
+        <div className="space-y-8">
+    {/* Early Bird Table */}
+    <table className="w-full border-collapse border border-gray-300">
       <thead>
-        <tr className="bg-gray-200">
-          <th className="border border-gray-300 px-4 py-2">Icon</th>
+        <tr className="bg-yellow-200">
           <th className="border border-gray-300 px-4 py-2">Title</th>
           <th className="border border-gray-300 px-4 py-2">Description</th>
           <th className="border border-gray-300 px-4 py-2">Fee</th>
@@ -281,12 +290,36 @@ const Page = () => {
         </tr>
       </thead>
       <tbody>
-        {feesItems.map((item, index) => (
+        {earlyBirdItems.map((item, index) => (
           <tr key={index} className="border border-gray-300 text-center">
-            <td className="border border-gray-300 px-4 py-2">
-              <img src={item.icon} alt="icon" className="w-8 h-8 mx-auto" />
+
+            <td className={`border border-gray-300 px-4 py-2 ${getTitleColor(item.title)}`}>
+              {item.title}
             </td>
-            <td className="border border-gray-300 px-4 py-2">{item.title}</td>
+            <td className="border border-gray-300 px-4 py-2">{item.description}</td>
+            <td className="border border-gray-300 px-4 py-2">{item.fee}</td>
+            <td className="border border-gray-300 px-4 py-2">{item.foreignFee}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+
+    {/* Regular Table */}
+    <table className="w-full border-collapse border border-gray-300">
+      <thead>
+        <tr className="bg-gray-200">
+          <th className="border border-gray-300 px-4 py-2">Title</th>
+          <th className="border border-gray-300 px-4 py-2">Description</th>
+          <th className="border border-gray-300 px-4 py-2">Fee</th>
+          <th className="border border-gray-300 px-4 py-2">Foreign Fee</th>
+        </tr>
+      </thead>
+      <tbody>
+        {regularItems.map((item, index) => (
+          <tr key={index} className="border border-gray-300 text-center">
+            <td className={`border border-gray-300 px-4 py-2 ${getTitleColor(item.title)}`}>
+              {item.title}
+            </td>
             <td className="border border-gray-300 px-4 py-2">{item.description}</td>
             <td className="border border-gray-300 px-4 py-2">{item.fee}</td>
             <td className="border border-gray-300 px-4 py-2">{item.foreignFee}</td>
@@ -297,7 +330,7 @@ const Page = () => {
   </div>
 </ScrollFadeIn>
 
-        <ScrollFadeIn>
+        {/* <ScrollFadeIn>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 p-4 md:p-6">
             {feesItems.map((item, index) => (
               <Card
@@ -310,7 +343,7 @@ const Page = () => {
               />
             ))}
           </div>
-        </ScrollFadeIn>
+        </ScrollFadeIn> */}
       </div>
 
       {/* FAQ Section */}

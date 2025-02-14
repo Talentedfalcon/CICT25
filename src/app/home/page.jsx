@@ -44,12 +44,12 @@ const Home=()=>{
                 <div className="text-2xl font-bold">
                     Indian Institute of Information Technology, Design and Manufacturing, Kancheepuram
                     <div className="text-sm font-light italic">
-                        An Institute of National Importance
+                        An Institute of National Importance  established in 2007 by the Ministry of Education, Government of India 
                     </div>
                 </div>
             </div>
             <div className="text-6xl font-black text-[#13287D] my-4">
-                CICT 2025
+                IEEE CICT 2025
             </div>
             {/* <button className="bg-[#0800F4] w-fit px-8 py-4 text-white font-bold rounded-md my-4">
                 CERTIFICATES
@@ -57,15 +57,33 @@ const Home=()=>{
             <div className="text-lg">
                 The 9th edition of the Annual IEEE International Conference on Information Communication Technology (CICT) jointly organized by all CFIIITs.
                 <div className="mt-10">
-                    IMPORTANT DATES:
-                    <ul className="ml-14 list-disc marker:text-[#61CE70]">
-                        <li>Paper submission dealine:<div className="inline ml-2 text-red-500 font-bold">31<sup>st</sup> May 2025</div></li>
-                        <li>Paper acceptance notification: <div className="inline ml-2 text-red-500 font-bold">31<sup>st</sup> July 2025</div></li>
-                        <li>Deadline for camera-ready submission: <div className="inline ml-2 text-red-500 font-bold">31<sup>st</sup> August 2025</div></li>
-                        <li>Deadline for early bird registration: <div className="inline ml-2 text-red-500 font-bold">30<sup>th</sup> September 2025</div></li>
-                        <li>Deadline for standard registration: <div className="inline ml-2 text-red-500 font-bold">30<sup>th</sup> October 2025</div></li>
-                    </ul>
-                </div>
+    <h2 className="text-lg font-bold mb-4">IMPORTANT DATES:</h2>
+    <table className="w-full border-collapse border border-gray-300">
+        <thead>
+            <tr className="bg-gray-200 text-left">
+                <th className="border border-gray-300 px-4 py-2">Event</th>
+                <th className="border border-gray-300 px-4 py-2">Deadline</th>
+            </tr>
+        </thead>
+        <tbody>
+            {[
+                { event: "Paper Submission Deadline", date: "31st May 2025" },
+                { event: "Paper Acceptance Notification", date: "31st July 2025" },
+                { event: "Deadline for Camera-Ready Submission", date: "31st August 2025" },
+                { event: "Deadline for Early Bird Registration", date: "30th September 2025" },
+                { event: "Deadline for Standard Registration", date: "30th October 2025" }
+            ].map((item, index) => (
+                <tr key={index} className="border border-gray-300 text-left">
+                    <td className="border border-gray-300 px-4 py-2">{item.event}</td>
+                    <td className="border border-gray-300 px-4 py-2 text-red-500 font-bold">
+                        {item.date}
+                    </td>
+                </tr>
+            ))}
+        </tbody>
+    </table>
+</div>
+
             </div>
             <div className="flex flex-col md:flex-row">
                 <a href="/calls/papers">

@@ -26,6 +26,5 @@ export const regularTrack = [
     "ICT Applications to Biology and Medical Sciences",
     "ICT Applications to Business, Finance and Marketing",
     "ICT Applications to Humanities and Social Sciences",
-    "ICT Applications to Prayagraj Mahakumbh2025",
     "ICT applications to Science of Happiness"
   ];
