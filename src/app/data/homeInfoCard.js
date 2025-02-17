@@ -5,12 +5,12 @@ export const homeInfoCard=[
         description:'A few accepted original research papers under various themes (NOT LIMITED to the already defined regular tracks) will be presented. 5-6 Keynote talks in emerging technologies by eminent Professors will be arranged.',
         link:'/calls/tracks/regular-tracks'
     },
-    {
-        img:'/home_img/laptop-file.png',
-        title:'Special Tracks',
-        description:'A few accepted research papers on ICT applications in various fields (LIMITED to the predefined special tracks ONLY) will be presented. Additionally, a few customized activities will be conducted in each Special Track in CICT-2025.',
-        link:'/calls/tracks/special-tracks'
-    },
+    // {
+    //     img:'/home_img/laptop-file.png',
+    //     title:'Special Tracks',
+    //     description:'A few accepted research papers on ICT applications in various fields (LIMITED to the predefined special tracks ONLY) will be presented. Additionally, a few customized activities will be conducted in each Special Track in CICT-2025.',
+    //     link:'/calls/tracks/special-tracks'
+    // },
     {
         img:'/home_img/laptop-file.png',
         title:'Symposium',
