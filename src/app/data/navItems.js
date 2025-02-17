@@ -32,7 +32,7 @@ export const navItems = {
       href: "/committee/core-organizinggroup",
     },
     {
-      title: "CICT 2025, ninth IEEE, IIITDM Kancheepuram",
+      title: "CICT 2025, Ninth IEEE, IIITDM Kancheepuram",
       href: "/committee/all-committees",
     },
   ],

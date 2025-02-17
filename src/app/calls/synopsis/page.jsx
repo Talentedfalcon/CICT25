@@ -12,11 +12,11 @@ const Page = () => {
           <div className='flex flex-col md:w-1/2 text-left'>
             <div className='my-4'>
               <h3 className='text-2xl mb-5 font-semibold text-[#13287D]'>PhD Symposium</h3>
-              <p className='text-gray-500'>Ph.D. Thesis successfully defended during 1st Oct 2023 To 30th September 2024 are eligible to be considered.</p>
+              <p className='text-gray-500'>Ph.D. Thesis successfully defended during 1st Oct 2024 To 30th September 2025 are eligible to be considered.</p>
             </div>
             <div className='my-4'>
               <h3 className='text-2xl mb-5 font-semibold text-[#13287D]'>Published Indian Patent</h3>
-              <p className='text-gray-500'>The owner of the Indian Patents published during 1st Oct 2023 to 1st Oct 2024 are eligible to apply.</p>
+              <p className='text-gray-500'>The owner of the Indian Patents published during 1st Oct 2024 to 1st Oct 2025 are eligible to apply.</p>
             </div>
             <div className='my-4'>
               <h3 className='text-2xl mb-5 font-semibold text-[#13287D]'>M.Tech Symposium</h3>
@@ -38,12 +38,12 @@ const Page = () => {
             </div>
           </div>
           <div className="relative w-full md:w-1/2 lg:h-[900px] h-[500px] flex items-start">
-            <Image 
+            {/* <Image 
               src="/callforsynopsis/image.png" 
               alt="call for paper" 
               fill 
               className="object-fit"
-            />
+            /> */}
           </div>
         </div>
       </div>

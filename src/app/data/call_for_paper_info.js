@@ -9,7 +9,6 @@ export const regularTrack = [
     "Microelectronics for Information Communication Systems",
     "Networks and Information Security",
     "Quantum Computation, Quantum Information, Quantum Communication",
-    "Regular Track",
     "Remote Sensing through Satellite/Drone imaging",
     "RF, Microwave, and THz Communication",
     "Robotics and Autonomous Vehicles",
