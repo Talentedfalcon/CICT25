@@ -29,7 +29,7 @@ export const Co_Patrons = {
       },
       {
         image: "/assets/images/co_patrons/p4.png",
-        title: "Dr. Sudhir Varadrajan",
+        title: "Dr. Raguraman Munusamy",
         description: "IIITDM Kancheepuram, Head, School of Interdisciplinary Design and Innovation",
         socialLinks: {
           facebook: "https://www.iiitdm.ac.in/people/faculty/sudhir@iiitdm.ac.in",

@@ -80,6 +80,10 @@ export const navItems = {
       title: "Sponsors",
       href: "/registration/sponsors",
     },
+    {
+      title: "Attractions",
+      href: "/registration/attractions",
+    },
   ],
   Events: [
     {
