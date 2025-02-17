@@ -117,7 +117,7 @@ const Page = () => {
           {/* Left - Step 1 Image (Order 1 on mobile, Order 2 on desktop) */}
           <div className="flex-1 order-1 lg:order-2">
             <Image
-              src="/assets/images/registration/iiitdm2.png"
+              src="/assets/images/registration/iiitdm5.jpg"
               alt="Campus Image"
               width={600}
               height={400}
@@ -171,13 +171,13 @@ const Page = () => {
           {/* Left - Step 2 Image (Order 1 on mobile, Order 2 on desktop) */}
           <div className="flex-1 order-1">
             <Image
-              src="/assets/images/registration/iiitdm2.png"
+              src="/assets/images/registration/iiitdm4.jpg"
               alt="Campus Image"
               width={600}
               height={400}
               className="rounded-lg shadow-lg object-cover w-full h-auto"
             />
-          </div>
+          </div>  
 
           {/* Right - Step 2 Content (Order 2 on mobile, Order 1 on desktop) */}
           <div className="flex-1 order-2 lg:order-1">
