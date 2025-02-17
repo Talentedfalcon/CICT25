@@ -84,6 +84,10 @@ export const navItems = {
       title: "Attractions",
       href: "/registration/attractions",
     },
+    {
+      title: "Hotels Nearby",
+      href: "/registration/accomodation",
+    },
   ],
   Events: [
     {
