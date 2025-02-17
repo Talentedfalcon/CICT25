@@ -28,8 +28,8 @@ export const navItems = {
       href: "/committee/international-advisory-committee",
     },
     {
-      title: "Technical Program Committee",
-      href: "/committee/technical-program-committee",
+      title: "Core Organizing Committee",
+      href: "/committee/core-organizinggroup",
     },
     {
       title: "CICT 2025, ninth IEEE, IIITDM Kancheepuram",

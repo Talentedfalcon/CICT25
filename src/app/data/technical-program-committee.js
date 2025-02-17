@@ -1,85 +1,132 @@
 export const TechnicalProgramCommittee = {
-    "Members": [
-    {
-        title: "Prof. U S Tiwary",
-        affiliation: "IIIT-Allahabad (Chair)",
-        image: "/assets/images/technical-program-committee/tiwary.jpg",
-        socialLinks: {
-          facebook: "https://facebook.com/us.tiwary",
-          linkedin: "https://linkedin.com/us_tiwary"
-        }
-    },
-    {
-        title: "Prof. Yogesh Chauhan",
-        affiliation: "IIT-Kanpur",
-        image: "/assets/images/technical-program-committee/chauhan.jpg",
-        socialLinks: {
-          facebook: "https://facebook.com/yogesh.chauhan",
-          linkedin: "https://linkedin.com/yogesh_chauhan"
-        }
-    },
-    {
-        title: "Prof. Y N Singh",
-        affiliation: "IIT Kanpur",
-        image: "/assets/images/technical-program-committee/singh.jpg",
-        socialLinks: {
-          facebook: "https://facebook.com/yn.singh",
-          linkedin: "https://linkedin.com/yn_singh"
-        }
-    },
-    {
-        title: "Prof. Kumar Vaibhav Srivastava",
-        affiliation: "IIT Kanpur",
-        image: "/assets/images/technical-program-committee/srivastava.jpg",
-        socialLinks: {
-          facebook: "https://facebook.com/kumar.srivastava",
-          linkedin: "https://linkedin.com/kumar_srivastava"
-        },
-    },
-    {
-        title: "Prof. Ganesh Ramakrishnan",
-        affiliation: "IIT Bombay",
-        image: "/assets/images/technical-program-committee/ramakrishnan.jpg",
-        socialLinks: {
-          facebook: "https://facebook.com/ganesh.ramakrishnan",
-          linkedin: "https://linkedin.com/ganesh_ramakrishnan"
-        }
-    },
-    {
-        title: "Prof. D. Manjunath",
-        affiliation: "IIT Bombay",
-        image: "/assets/images/technical-program-committee/manjunath.jpg",
-        socialLinks: {
-          facebook: "https://facebook.com/d.manjunath",
-          linkedin: "https://linkedin.com/d_manjunath"
-        }
-    },
-    {
-        title: "Prof. Chockalingam",
-        affiliation: "IISc Bangalore",
-        image: "/assets/images/technical-program-committee/chockalingam.jpg",
-        socialLinks: {
-          facebook: "https://facebook.com/chockalingam",
-          linkedin: "https://linkedin.com/chockalingam"
-        }
-    },
-    {
-        title: "Prof. A G Ramakrishna",
-        affiliation: "IISc Bangalore",
-        image: "/assets/images/technical-program-committee/ramakrishna.jpg",
-        socialLinks: {
-          facebook: "https://facebook.com/ag.ramakrishna",
-          linkedin: "https://linkedin.com/ag_ramakrishna"
-        }
-    },
-    {
-        title: "Prof. Manav Bhatnagar",
-        affiliation: "IIT-Delhi",
-        image: "/assets/images/technical-program-committee/bhatnagar.jpg",
-        socialLinks: {
-          facebook: "https://facebook.com/manav.bhatnagar",
-          linkedin: "https://linkedin.com/manav_bhatnagar"
-        }
-    }
-  ].sort((a, b) => a.title.localeCompare(b.title))
+  "Members": [
+  {
+      title: "Dr. Gowri A",
+      description: "ECE, IIITDM Kancheepuram",
+      image: "/assets/images/technical-program-committee/p1.jpg",
+      socialLinks: {
+        facebook: "https://www.iiitdm.ac.in/people/faculty/gowri@iiitdm.ac.in",
+        linkedin: "https://in.linkedin.com/in/gowri-annasamy-75b53573"
+      }
+  },
+  {
+      title: "Dr. Jayashree Mayank",
+      description: "CSE, IIITDM Kancheepuram",
+      image: "/assets/images/technical-program-committee/p2.jpg",
+      socialLinks: {
+        facebook: "https://www.iiitdm.ac.in/people/faculty/jaishree@iiitdm.ac.in",
+        linkedin: "https://in.linkedin.com/in/jaishree-mayank-55597471"
+      }
+  },
+  {
+      title: "Dr. Kannadasan",
+      description: "CSE, IIITDM Kancheepuram",
+      image: "/assets/images/technical-program-committee/p3.jpg",
+      socialLinks: {
+        facebook: "https://www.iiitdm.ac.in/people/faculty/kannadasankk@iiitdm.ac.in",
+        linkedin: "https://in.linkedin.com/in/dr-kannadasan-raju-603a4a75"
+      }
+  },
+  {
+      title: "Dr. Monisha M",
+      description: "SIDI, IIITDM Kancheepuram",
+      image: "/assets/images/technical-program-committee/p4.jpg",
+      socialLinks: {
+        facebook: "https://www.iiitdm.ac.in/people/faculty/monisha@iiitdm.ac.in",
+        linkedin: "https://in.linkedin.com/in/drmonishaarun"
+      }
+  },
+  {
+      title: "Dr. Parvathy Das",
+      description: "S & H, IIITDM Kancheepuram",
+      image: "/assets/images/technical-program-committee/p5.jpg",
+      socialLinks: {
+        facebook: "https://www.iiitdm.ac.in/people/faculty/parvathydas@iiitdm.ac.in",
+        linkedin: "https://in.linkedin.com/in/parvathy-das-77ab88224"
+      }
+  },
+  {
+      title: "Dr. Pradhan K P",
+      description: "ECE, IIITDM Kancheepuram",
+      image: "/assets/images/technical-program-committee/p6.jpg",
+      socialLinks: {
+        facebook: "https://www.iiitdm.ac.in/people/faculty/kppradhan@iiitdm.ac.in",
+        linkedin: "https://be.linkedin.com/in/dr-k-p-pradhan-0173544b"
+      }
+  },
+  {
+      title: "Dr. Preeth R",
+      description: "CSE, IIITDM Kancheepuram",
+      image: "/assets/images/technical-program-committee/p7.jpg",
+      socialLinks: {
+        facebook: "https://www.iiitdm.ac.in/people/faculty/preeth@iiitdm.ac.in",
+        linkedin: "https://in.linkedin.com/in/preethr"
+      }
+  },
+  {
+      title: "Dr. Raghavan S",
+      description: "CSE, IIITDM Kancheepuram",
+      image: "/assets/images/technical-program-committee/p8.jpg",
+      socialLinks: {
+        facebook: "http://iiitdm.ac.in/people/faculty/raghavans@iiitdm.ac.in",
+        linkedin: "https://www.iiitdm.ac.in/people/faculty"
+      }
+  },
+  {
+      title: "Dr. Rajnish Mallick",
+      description: "SIDI, IIITDM Kancheepuram",
+      image: "/assets/images/technical-program-committee/p9.jpg",
+      socialLinks: {
+        facebook: "https://www.iiitdm.ac.in/people/faculty/rajnish.mallick@iiitdm.ac.in",
+        linkedin: "https://in.linkedin.com/in/drmallickrajnish"
+      }
+  },
+  {
+      title: "Dr. Senthilkumaran K",
+      description: "ME, IIITDM Kancheepuram",
+      image: "/assets/images/technical-program-committee/p10.jpg",
+      socialLinks: {
+        facebook: "https://www.iiitdm.ac.in/people/faculty/skumaran@iiitdm.ac.in",
+        linkedin: "https://in.linkedin.com/in/senthilkumarank"
+      }
+  },
+  {
+      title: "Dr. Sivaprasad A V",
+      description: "ME, IIITDM Kancheepuram",
+      image: "/assets/images/technical-program-committee/p11.jpg",
+      socialLinks: {
+        facebook: "https://www.iiitdm.ac.in/people/faculty/avs@iiitdm.ac.in",
+        linkedin: "https://www.iiitdm.ac.in/people/faculty"
+      }
+  },
+  {
+      title: "Dr. Tejendra Dixit",
+      description: "ECE, IIITDM Kancheepuram",
+      image: "/assets/images/technical-program-committee/p12.jpg",
+      socialLinks: {
+        facebook: "https://www.iiitdm.ac.in/people/faculty/tdixit@iiitdm.ac.in",
+        linkedin: "https://in.linkedin.com/in/tejendra-dixit-62270126"
+      }
+  }
+  ,
+  {
+      title: "Dr. Uttam Pal Mrinal",
+      description: "ECE, IIITDM Kancheepuram",
+      image: "/assets/images/technical-program-committee/p13.jpg",
+      socialLinks: {
+        facebook: "https://www.iiitdm.ac.in/people/faculty/uttampal@iiitdm.ac.in",
+        linkedin: "https://in.linkedin.com/in/uttampal"
+      }
+  }
+  ,
+  {
+      title: "Dr. Eshwarmoorthy KV",
+      description: "IIITDM Kurnool",
+      image: "/assets/images/technical-program-committee/p14.jpg",
+      socialLinks: {
+        facebook: "https://iiitk.ac.in/Dr.-Eswaramoorthy-K-V/page",
+        linkedin: "https://in.linkedin.com/in/eswaramoorthykv"
+      }
+  }
+].sort((a, b) => a.title.localeCompare(b.title))
 };
