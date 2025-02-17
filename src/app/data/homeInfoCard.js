@@ -8,13 +8,13 @@ export const homeInfoCard=[
     {
         img:'/home_img/laptop-file.png',
         title:'Special Tracks',
-        description:'A few accepted research papers on ICT applications in various fields (LIMITED to the predefined special tracks ONLY) will be presented. Additionally, a few customized activities will be conducted in each Special Track in CICT-2024.',
+        description:'A few accepted research papers on ICT applications in various fields (LIMITED to the predefined special tracks ONLY) will be presented. Additionally, a few customized activities will be conducted in each Special Track in CICT-2054.',
         link:'/calls/tracks/special-tracks'
     },
     {
         img:'/home_img/laptop-file.png',
         title:'Symposium',
-        description:'As per CFS the shortlisted synopsis shall be presented (ORAL/POSTER) under the following symposiums in CICT-2024:Ph.D. Symposium, Startups Symposium, Published Indian Patents (PIP) Symposium, M.Tech. Symposium, B.Tech. Symposium (POSTER)',
+        description:'As per CFS the shortlisted synopsis shall be presented (ORAL/POSTER) under the following symposiums in CICT-2025:Ph.D. Symposium, Startups Symposium, Published Indian Patents (PIP) Symposium, M.Tech. Symposium, B.Tech. Symposium (POSTER)',
         link:'/events/phd-symposium'
     },
     {
@@ -26,7 +26,7 @@ export const homeInfoCard=[
     {
         img:'/home_img/laptop-file.png',
         title:'Workshop/Exhibition',
-        description:'Workshop on DRONES Technology and Applications by IIITDM Kurnool and IIIT-Allahabad will be organized. Also, 3 Exhibitions on different areas of ICT will be organized in CICT-2024',
+        description:'Workshop on DRONES Technology and Applications by IIITDM Kurnool and IIIT-Allahabad will be organized. Also, 3 Exhibitions on different areas of ICT will be organized in CICT-2025',
         link:'#'
     },
 ]

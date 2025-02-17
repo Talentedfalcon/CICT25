@@ -186,7 +186,7 @@ const Page = () => {
               (After Completing Step 1 Registration Process)
             </p>
             <p className="text-blue-500 mb-4">
-              Step 2 Registration Deadline: 22nd November 2024
+              Step 2 Registration Deadline: 30th October, 2025
             </p>
             <ul className="list-disc list-inside text-gray-700 space-y-2 mb-6">
               <li>
