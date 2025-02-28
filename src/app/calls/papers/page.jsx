@@ -27,6 +27,7 @@ const Page = () => {
                 ))}
               </ul>
             </div>
+            <div className='text-sm italic font-bold'>The conference welcomes submissions in a wide range of topics and is not limited to the areas listed above.</div>
             <div className='flex flex-col text-gray-500 border-black border-2 rounded-xl py-5 pl-5 pr-5 my-10 max-w-max'>
               <div className='my-1'>Submission Deadline: 31st May 2025</div>
               <div className='my-1'>Acceptance Notification: 31st July 2025</div>

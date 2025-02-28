@@ -14,7 +14,7 @@ export const homeInfoCard=[
     {
         img:'/home_img/laptop-file.png',
         title:'Symposium',
-        description:'As per CFS the shortlisted synopsis shall be presented (ORAL/POSTER) under the following symposiums in CICT-2025:Ph.D. Symposium, Startups Symposium, Published Indian Patents (PIP) Symposium, M.Tech. Symposium, B.Tech. Symposium (POSTER)',
+        description:'As per Call For Synopsis the shortlisted synopsis shall be presented (ORAL/POSTER) under the following symposiums in CICT-2025: Ph.D. Symposium, Startups Symposium, Published Indian Patents Symposium, M.Tech. Symposium, B.Tech. Symposium (POSTER)',
         link:'/events/phd-symposium'
     },
     {
@@ -26,7 +26,7 @@ export const homeInfoCard=[
     {
         img:'/home_img/laptop-file.png',
         title:'Workshop/Exhibition',
-        description:'Workshop on DRONES Technology and Applications by IIITDM Kurnool and IIIT-Allahabad will be organized. Also, 3 Exhibitions on different areas of ICT will be organized in CICT-2025',
+        description:'Workshops will be organized at IIITDM Kancheepuram',
         link:'#'
     },
 ]

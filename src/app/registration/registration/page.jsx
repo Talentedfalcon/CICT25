@@ -41,7 +41,7 @@ const Page = () => {
               substitute presenter who is qualified both to present and answer
               questions.
             </li>
-            <li>
+            <li className="font-bold">
               Registration of two papers is allowed at a single registration
               fee.
             </li>
