@@ -55,9 +55,9 @@ const Home=()=>{
                 CERTIFICATES
             </button> */}
             <div className="text-lg">
-                The 9th edition of the Annual IEEE International Conference on Information Communication Technology (CICT) jointly organized by all CFIIITs.
+                The 9th edition of the Annual IEEE International Conference on <span className="font-bold">Information and Communication Technology</span> (CICT) jointly organized by all CFIIITs.
                 <div className="mt-10">
-    <h2 className="text-lg font-bold mb-4">IMPORTANT DATES:</h2>
+    <h2 className="text-lg font-bold mb-4">IMPORTANT DATES</h2>
     <table className="w-full border-collapse border border-gray-300">
         <thead>
             <tr className="bg-gray-200 text-left">
@@ -103,6 +103,7 @@ const Home=()=>{
                     </button>
                 </a>
             </div>
+            <div className="italic">* IEEE Approval under process</div>
         </div>
         <div className="bg-[url(/home_img/institute.jpg)] w-full h-[50vh] md:h-auto bg-cover bg-no-repeat bg-center">
         </div>
@@ -183,7 +184,7 @@ const Home=()=>{
                 <div className="text-5xl text-[#4c2222] pr-2 shake">
                     &#9993;
                 </div>
-                <div className="text-sm flex flex-col gap-2">
+                <div className="text-lg flex flex-col gap-2">
                     <p className="text-blue-500 underline">
                         <a href="https://mail.google.com/mail/?view=cm&fs=1&to=cict@iiitdm.ac.in" target="_blank" rel="noopener noreferrer">cict@iiitdm.ac.in</a>
                     </p>
