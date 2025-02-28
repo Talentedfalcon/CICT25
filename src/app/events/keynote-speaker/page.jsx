@@ -19,7 +19,7 @@ const Page = () => {
 
   return (
     <div className="p-6 text-center">
-      <h2 className="text-4xl font-bold text-center text-blue-800 mb-6">
+      <h2 className="text-4xl font-bold text-center text-[#4c2222] mb-6">
         Keynote Speakers
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 p-6">
@@ -40,7 +40,7 @@ const Page = () => {
                 {speaker.name}
               </h3>
               <Button
-                className="mt-3 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg"
+                className="mt-3 bg-[#4c2222] hover:bg-[#4c2222] text-white px-4 py-2 rounded-lg"
                 onClick={() => scrollToDetails(speaker.id)}
               >
                 More Details
@@ -66,7 +66,7 @@ const Page = () => {
               />
             </div>
             <div className="w-full md:w-2/3 text-left md:pl-6">
-              <h3 className="text-3xl font-bold text-blue-800">
+              <h3 className="text-3xl font-bold text-[#4c2222]">
                 {speaker.name}
               </h3>
               <p className="text-gray-700 mt-2">

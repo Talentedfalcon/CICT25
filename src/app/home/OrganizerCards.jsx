@@ -5,7 +5,7 @@ function OrganizerCards(){
     const organizers=homeOrganizerInfo.map((college,index)=>{
         return(
             <div 
-                className="w-60 flex flex-col shadow-2xl items-center bg-white text-[#13287D] py-5 px-5 rounded-xl" 
+                className="w-60 flex flex-col shadow-2xl items-center bg-white text-[#222121] py-5 px-5 rounded-xl" 
                 key={index}
             >
                 <div 

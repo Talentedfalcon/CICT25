@@ -90,8 +90,8 @@ export default function Component() {
                   className="h-12 w-12 object-contain"
                 />
                 <div className="flex flex-col -space-y-1">
-                  <p className="text-xl font-bold text-blue-600">CICT</p>
-                  <p className="text-lg font-bold text-gray-900">2025</p>
+                  <p className="text-xl font-bold text-[#4c2222]">CICT</p>
+                  <p className="text-lg font-bold text-[#331616]">2025</p>
                 </div>
               </a>
             </div>
@@ -199,8 +199,8 @@ export default function Component() {
             className="h-12 w-12 object-contain"
           />
           <div className="flex flex-col -space-y-1">
-            <p className="text-xl font-bold text-blue-600">CICT</p>
-            <p className="text-lg font-bold text-gray-900">2025</p>
+            <p className="text-xl font-bold text-[#4c2222]">CICT</p>
+            <p className="text-lg font-bold text-[#331616]">2025</p>
           </div>
         </a>
       </div>
@@ -228,8 +228,8 @@ export default function Component() {
             className="h-16 w-16 object-contain"
           />
           <div className="flex flex-col -space-y-1">
-            <p className="text-xl font-bold text-blue-600">CICT</p>
-            <p className="text-lg font-bold text-gray-900">2025</p>
+            <p className="text-xl font-bold text-[#4c2222]">CICT</p>
+            <p className="text-lg font-bold text-[#351717]">2025</p>
           </div>
         </a>
 
@@ -246,7 +246,7 @@ export default function Component() {
     >
       <Button
         variant="ghost"
-        className="text-base font-medium text-gray-700 hover:text-blue-600 border-t-4 border-transparent hover:border-blue-500"
+        className="text-base font-medium text-gray-700 hover:text-[#4c2222] border-t-4 border-transparent hover:border-[#4c2222]"
       >
         {category} <ChevronDownIcon className="h-4 w-4 ml-1" />
       </Button>
@@ -261,7 +261,7 @@ export default function Component() {
             <div key={item.title} className="relative">
               {item.subItems ? (
                 <div 
-                  className="group/subitem flex items-center justify-between w-full cursor-pointer hover:bg-gray-100 hover:text-blue-600 rounded-lg transition-colors duration-200 p-1"
+                  className="group/subitem flex items-center justify-between w-full cursor-pointer hover:bg-gray-100 hover:text-[#4c2222] rounded-lg transition-colors duration-200 p-1"
                   onMouseEnter={() => setExpandedSubItemDesktop(item.title)}
                 >
                   <Link
@@ -283,7 +283,7 @@ export default function Component() {
               ) : (
                 <Link
                   href={item.href || "#"}
-                  className="block w-full hover:bg-gray-100 hover:text-blue-600 rounded-lg transition-colors duration-200 px-4 py-2 text-sm text-gray-600"
+                  className="block w-full hover:bg-gray-100 hover:text-[#4c2222] rounded-lg transition-colors duration-200 px-4 py-2 text-sm text-[#180a0a]"
                 >
                   {item.title}
                 </Link>
@@ -295,7 +295,7 @@ export default function Component() {
                     <Link
                       key={subItem.title}
                       href={subItem.href || "#"}
-                      className="block w-full px-4 py-2 text-sm text-gray-600 hover:text-blue-600 hover:bg-gray-100 rounded-lg transition-colors duration-200"
+                      className="block w-full px-4 py-2 text-sm text-gray-600 hover:text-[#4c2222] hover:bg-gray-100 rounded-lg transition-colors duration-200"
                     >
                       {subItem.title}
                     </Link>

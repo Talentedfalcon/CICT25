@@ -6,7 +6,7 @@ import { OrganizingChairs } from '@/app/data/organizing-chairs';
 const page = () => {
   return (
     <div className="min-h-screen bg-white flex flex-col items-center gap-4 px-4">
-      <div className="flex h-16 items-center font-sans text-5xl text-blue-800 font-bold mt-10">
+      <div className="flex h-16 items-center font-sans text-5xl text-[#222121] font-bold mt-10">
         Organising Chair
       </div>
       

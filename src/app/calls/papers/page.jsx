@@ -7,12 +7,12 @@ const Page = () => {
     <>
       <div className='flex flex-col justify-center items-center text-center p-5'>
         <div className='mb-10'>
-          <h1 className='text-5xl font-bold text-[#13287D]'>Call for Papers</h1>
+          <h1 className='text-5xl font-bold text-[#222121]'>Call for Papers</h1>
         </div>
         <div className='flex md:flex-row flex-col w-full lg:w-3/4 gap-4 mx-auto items-start md:text-lg lg:text-xl'>
           <div className='flex flex-col md:w-1/2 text-left'>
             <div>
-              <h3 className='text-xl font-semibold text-[#13287D]'>Regular Track</h3>
+              <h3 className='text-xl font-semibold text-[#222121]'>Regular Track</h3>
               <ul className='list-disc list-inside text-gray-500 my-6'>
                 {regularTrack.map((item, index) => (
                   <li className='my-1' key={index}>{item}</li>
@@ -20,7 +20,7 @@ const Page = () => {
               </ul>
             </div>
             <div>
-              <h3 className='text-xl font-semibold mt-4 text-[#13287D]'>Special Track</h3>
+              <h3 className='text-xl font-semibold mt-4 text-[#222121]'>Special Track</h3>
               <ul className='list-disc list-inside text-gray-500 my-6'>
                 {specialTrack.map((item, index) => (
                   <li className='my-1' key={index}>{item}</li>

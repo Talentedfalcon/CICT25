@@ -17,8 +17,8 @@ const buttonList=()=>{
             >
                 <button
                     className="
-                        bg-[#61CE70] text-black font-bold rounded-full mx-4 px-8 py-4 md:mr-8 my-5 text-center
-                        hover:bg-[#279E64] hover:text-white duration-200
+                        bg-[#4c2222] text-white font-bold rounded-full mx-4 px-8 py-4 md:mr-8 my-5 text-center
+                        hover:bg-[#4c2222] hover:text-white duration-200
                     "
                 >
                     {button.name}
@@ -36,8 +36,8 @@ const buttonList=()=>{
 const Home=()=>{
     return(
     <>
-    <div className="md:flex bg-[#E6F7FF] w-full h-fit px-4 md:p-0">
-        <div className="flex flex-col w-fit bg-[#E6F7FF] md:py-8 mx-8 md:w-1/2 md:mx-20">
+    <div className="md:flex bg-[#ebe8e8] w-full h-fit px-4 md:p-0">
+        <div className="flex flex-col w-fit bg-[#ebe8e8] md:py-8 mx-8 md:w-1/2 md:mx-20">
             <CountDown targetDate="2025-12-18T23:59:59"/>
             <div className="flex flex-col md:flex-row md:items-center gap-5 mt-24">
                 <img className="w-2/6 md:w-1/6 slight-tilt duration-500" src="/logos/iiitdm_logo.png"/>
@@ -48,7 +48,7 @@ const Home=()=>{
                     </div>
                 </div>
             </div>
-            <div className="text-6xl font-black text-[#13287D] my-4">
+            <div className="text-6xl font-black text-[#222121] my-4">
                 IEEE CICT 2025
             </div>
             {/* <button className="bg-[#0800F4] w-fit px-8 py-4 text-white font-bold rounded-md my-4">
@@ -88,15 +88,15 @@ const Home=()=>{
             <div className="flex flex-col md:flex-row">
                 <a href="/calls/papers">
                     <button className="
-                        bg-[#279E64] text-white font-bold rounded-full px-8 py-4 border-solid border-2 border-[#279E64] md:mr-8 my-5 text-center
-                        hover:bg-transparent hover:text-[#279E64] duration-200 pop
+                        bg-[#4c2222] text-white font-bold rounded-full px-8 py-4 border-solid border-2 border-[#4c2222] md:mr-8 my-5 text-center
+                        hover:bg-transparent hover:text-[#4c2222] duration-200 pop
                         ">
                         CALL FOR PAPER
                     </button>
                 </a>
                 <a href="/calls/synopsis">
                     <button className="
-                        bg-transparent text-[#13287D] font-bold rounded-full px-8 py-4 border-solid border-2 border-[#13287D] my-5 text-center
+                        bg-[#4c2222] text-white font-bold rounded-full px-8 py-4 border-solid border-2 border-[#4c2222] my-5 text-center
                         hover:bg-[#13287D] hover:text-white duration-200 pop
                         ">
                         CALL FOR SYNOPSIS
@@ -108,7 +108,7 @@ const Home=()=>{
         </div>
     </div>
 
-    <div className="pb-24 bg-[#13287D]">
+    <div className="pb-24 bg-[#222121]">
         <InfoCards/>
     </div>
     
@@ -116,10 +116,10 @@ const Home=()=>{
         <div className="flex flex-col md:flex-row items-center justify-center w-full gap-20">
             <img className="rounded-lg" src={null} alt="Brochure"/>
             <div className="flex flex-col gap-5">
-                <span className="text-[#279E64] font-bold text-xl">
+                <span className="text-black font-bold text-xl">
                     About CICT 2025
                 </span>
-                <span className="text-[#13287D] font-extrabold text-3xl">
+                <span className="text-[#222121] font-extrabold text-3xl">
                     IEEE CICT 2025 Indian Institute of Information Technology, Design and Manufacturing Kancheepuram
                 </span>
                 <div className="text-xl text-gray-700">
@@ -134,18 +134,18 @@ const Home=()=>{
                     All these institutes are fully funded by the Government of India, and the conference venue rotates among them in a round-robin fashion.
                     Since its inception, CICT has been technically and financially co-sponsored by IEEE, with all past eight editions having their proceedings available on IEEE Xplore. Additionally, prestigious government organizations like DST, ISRO, DRDO, CSIR, and several private companies have provided financial support, further strengthening the conference’s impact and outreach in the field of Information and Communication Technology (ICT).
                 </div>
-                <div className="text-[#13287D] font-bold">
+                <div className="text-[#222121] font-bold">
                     Previous Edition of CICT:
                     <a href="https://ieeexplore.ieee.org/xpl/conhome/1823245/all-proceedings" target="_blank">
                         <button className="
-                            bg-[#61CE70] text-black font-bold rounded-full mx-4 px-8 py-4 md:mr-8 my-5 text-center
-                            hover:bg-[#279E64] hover:text-white duration-200
+                            bg-[#4c2222] text-white font-bold rounded-full mx-4 px-8 py-4 md:mr-8 my-5 text-center
+                            hover:bg-[#371919] hover:text-white duration-200
                         ">
                             ieeeXplore Link
                         </button>
                     </a>
                 </div>
-                <ul className="text-black text-lg list-disc marker:text-[#61CE70] marker:text-2xl pl-8">
+                <ul className="text-black text-lg list-disc marker:text-[#4c2222] marker:text-2xl pl-8">
                     <PreviousOrganizersList/>
                 </ul>
             </div>
@@ -153,7 +153,7 @@ const Home=()=>{
         {buttonList()}
     </div>
 
-    <div className="flex flex-col items-center bg-[#279E64] rounded-xl pb-40">
+    <div className="flex flex-col items-center bg-[#4c2222] rounded-xl pb-40">
         <img className="w-2/6 md:w-1/12 mb-5 mt-16 slight-tilt duration-500" src="/logos/iiitdm_white.png"/>
         <div className="text-center text-white text-3xl font-bold">
             Organizing Institutes<br/>
@@ -180,7 +180,7 @@ const Home=()=>{
                 <img className="w-32 aspect-square" src="/logos/iiitdm.png"/>
             </div>
             <div className="flex flex-col md:flex-row items-center justify-center border-solid border-r-[1px] pt-5 pb-10 px-10 gap-2">
-                <div className="text-5xl text-[#279E64] pr-2 shake">
+                <div className="text-5xl text-[#4c2222] pr-2 shake">
                     &#9993;
                 </div>
                 <div className="text-sm flex flex-col gap-2">
@@ -190,7 +190,7 @@ const Home=()=>{
                 </div>
             </div>
             <div className="flex flex-col md:flex-row items-center justify-center border-solid border-l-[1px] pt-5 pb-10 px-10 gap-2">
-                <div className="text-5xl text-[#279E64] shake pr-2">
+                <div className="text-5xl text-[#4c2222] shake pr-2">
                     &#9743;
                 </div>
                 <div className="text-sm flex flex-col gap-2">

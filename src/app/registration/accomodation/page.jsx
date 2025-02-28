@@ -46,11 +46,11 @@ const page = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col items-center gap-8 px-6 py-10">
-      <h1 className="text-4xl font-semibold text-blue-900 mb-8 text-center">Nearby Hotels for Your Stay</h1>
+      <h1 className="text-4xl font-semibold text-[#222121] mb-8 text-center">Nearby Hotels for Your Stay</h1>
       <div className="flex flex-col gap-8">
         {hotels.map((hotel, index) => (
           <div key={index} className="w-full max-w-4xl bg-white p-8 rounded-lg shadow-lg border-l-4 border-blue-600">
-            <h2 className="text-3xl font-bold text-blue-800">{hotel.name}</h2>
+            <h2 className="text-3xl font-bold text-[#222121]">{hotel.name}</h2>
             <p className="text-lg text-gray-600 mt-3">{hotel.address}</p>
             <p className="text-lg text-gray-500 mt-2">Distance from venue: <strong>{hotel.distance}</strong></p>
           </div>

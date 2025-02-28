@@ -6,7 +6,7 @@ const page = () => {
     <div className="min-h-screen bg-white flex flex-col items-center gap-8 mt-10 px-4">
       <ScrollFadeIn>
         <div className="flex flex-col items-center gap-6 text-center font-sans">
-          <div className="text-5xl text-blue-800 font-semibold">
+          <div className="text-5xl text-[#4c2222] font-semibold">
             <span>Exciting Opportunity!</span>
           </div>
           <div className="text-xl text-gray-700 max-w-4xl">
@@ -16,7 +16,7 @@ const page = () => {
             <p className="mb-6">
               Shortlisted synopses will be invited to present their research during the conference. The top presentations will receive a token prize and a certificate of merit.
             </p>
-            <div className="text-2xl text-blue-600 font-bold">
+            <div className="text-2xl text-[#4c2222] font-bold">
               <span>Don't miss this opportunity to showcase your work!</span>
             </div>
           </div>

@@ -128,7 +128,7 @@ const FAQSection = () => {
       {/* Header Section */}
       <div className="mb-8">
         <p className="text-emerald-600 font-medium mb-2">CICT 2025 Registration</p>
-        <h2 className="text-4xl font-bold text-blue-900 mb-8">
+        <h2 className="text-4xl font-bold text-[#4c2222] mb-8">
           Frequently Asked Questions (FAQs)
         </h2>
       </div>
@@ -137,7 +137,7 @@ const FAQSection = () => {
       <Accordion type="single" collapsible className="w-full">
         {faqItems.map((item, index) => (
           <AccordionItem key={index} value={`item-${index}`}>
-            <AccordionTrigger className="text-blue-900 font-semibold hover:no-underline">
+            <AccordionTrigger className="text-[#4c2222] font-semibold hover:no-underline">
               {item.question}
             </AccordionTrigger>
             <AccordionContent className="text-gray-700">

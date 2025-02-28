@@ -18,7 +18,7 @@ const getTitleColor = (title) => {
 const Page = () => {
   return (
     <div className="min-h-screen bg-white flex flex-col items-center gap-6 p-6">
-      <div className="text-5xl text-blue-800 font-bold mt-20 text-center">
+      <div className="text-5xl text-[#222121] font-bold mt-20 text-center">
         Registration for IEEE CICT-2025 will be open soon ...
       </div>
 
@@ -127,7 +127,7 @@ const Page = () => {
 
           {/* Right - Step 1 Content (Order 2 on mobile, Order 1 on desktop) */}
           <div className="flex-1 order-2 lg:order-1">
-            <h2 className="text-2xl font-bold text-blue-800 mb-4">STEP 1</h2>
+            <h2 className="text-2xl font-bold text-[#222121] mb-4">STEP 1</h2>
             <p className="text-blue-500 mb-4">
               Step 1 Registration Deadline: TBA
             </p>
@@ -181,7 +181,7 @@ const Page = () => {
 
           {/* Right - Step 2 Content (Order 2 on mobile, Order 1 on desktop) */}
           <div className="flex-1 order-2 lg:order-1">
-            <h2 className="text-2xl font-bold text-blue-800 mb-4">STEP 2</h2>
+            <h2 className="text-2xl font-bold text-[#222121] mb-4">STEP 2</h2>
             <p className="text-gray-600 italic mb-4">
               (After Completing Step 1 Registration Process)
             </p>
@@ -214,7 +214,7 @@ const Page = () => {
         className="max-w-4xl w-full mt-10 bg-blue-100 p-6 rounded-lg shadow-lg"
         id="bank-details"
       >
-        <h3 className="text-lg font-semibold text-blue-700">
+        <h3 className="text-lg font-semibold text-[#222121]">
           The bank account details for foreign payment:
         </h3>
         <ul className="text-gray-800 mt-3 space-y-1">
@@ -262,12 +262,12 @@ const Page = () => {
       <div id="fees" className="container mx-auto px-4 md:px-6">
         <div className="space-y-2 md:space-y-4">
           <ScrollFadeIn>
-            <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-blue-800 font-bold mt-12 md:mt-20 text-center">
+            <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-[#222121] font-bold mt-12 md:mt-20 text-center">
               CICT 25
             </div>
           </ScrollFadeIn>
           <ScrollFadeIn>
-            <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-blue-800 font-bold text-center">
+            <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-[#222121] font-bold text-center">
               Registration Fees
             </div>
           </ScrollFadeIn>

@@ -12,7 +12,7 @@ function InfoCards(){
                     <div className="my-5">
                         {info.description}
                     </div>
-                    <a className="font-bold hover:text-[#279E64] duration-200" href={info.link}>
+                    <a className="font-bold hover:text-[#4c2222] duration-200" href={info.link}>
                         Read More &rarr;
                     </a>
                 </div>

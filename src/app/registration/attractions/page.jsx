@@ -53,7 +53,7 @@ const AttractionsPage = () => {
   return (
     <div className="w-full max-w-4xl mx-auto px-4 py-12">
       <div className="mb-8 text-center">
-        <h2 className="text-4xl font-bold text-blue-900 mb-4">
+        <h2 className="text-4xl font-bold text-[#222121] mb-4">
           Attractions Near IIITDM Kancheepuram
         </h2>
         <p className="text-gray-600 text-lg">
@@ -64,7 +64,7 @@ const AttractionsPage = () => {
       <Accordion type="single" collapsible className="w-full">
         {attractions.map((place, index) => (
           <AccordionItem key={index} value={`item-${index}`}>
-            <AccordionTrigger className="text-blue-900 font-semibold hover:no-underline">
+            <AccordionTrigger className="text-[#222121] font-semibold hover:no-underline">
               {place.name}
             </AccordionTrigger>
             <AccordionContent className="text-gray-700">
