@@ -55,7 +55,7 @@ const Home=()=>{
                 CERTIFICATES
             </button> */}
             <div className="text-lg">
-                The 9th edition of the Annual IEEE International Conference on <span className="font-bold">Information and Communication Technology</span> (CICT) jointly organized by all CFIIITs.
+                The 9th edition of the Annual IEEE International Conference on <span className="font-bold">Information and Communication Technology</span> (CICT) jointly organized by all Centrally Funded Indian Institutes of Information Technology (CFIIITs).
                 <div className="mt-10">
     <h2 className="text-lg font-bold mb-4">IMPORTANT DATES</h2>
     <table className="w-full border-collapse border border-gray-300">
@@ -124,7 +124,7 @@ const Home=()=>{
                     IEEE CICT 2025 Indian Institute of Information Technology, Design and Manufacturing Kancheepuram
                 </span>
                 <div className="text-xl text-gray-700">
-                    The International Conference on Information and Communication Technology (CICT) is an annual event organized by five Indian Institutes of Information Technology (IIITs), namely:
+                    CICT is an annual event organized by five Indian Institutes of Information Technology (IIITs), namely:
                     <ul className="list-disc ml-24">
                         <li>Indian Institute of Information Technology, Design and Manufacturing Kancheepuram</li>
                         <li>Indian Institute of Information Technology,  Allahabad</li>

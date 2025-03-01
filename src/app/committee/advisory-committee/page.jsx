@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 
 
-import { InternationalAdvisoryCommittee } from "@/app/data/international-advisory-committee";
+import { InternationalAdvisoryCommittee } from "@/app/data/advisory-committee";
 import SocialMediaCard from "@/app/(components)/SocialMediaCard";
 
 export default function InternationalAdvisoryCommitteePage() {

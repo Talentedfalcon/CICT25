@@ -1,3 +1,5 @@
+import { title } from "process";
+
 // data/navItems.js
 export const navItems = {
   Home: [
@@ -16,23 +18,27 @@ export const navItems = {
       href: "/committee/patrons",
     },
     {
-      title: "Organizing Chair",
-      href: "/committee/organizing-chair",
+      title: "Co-Patrons",
+      href: "/committee/co-patrons"
     },
     {
-      title: "CFIIITs Steering Committee",
-      href: "/committee/cfiiits-steering-committee",
+      title: "General Chair",
+      href: "/committee/general-chair",
     },
     {
       title: "Advisory Committee",
-      href: "/committee/international-advisory-committee",
+      href: "/committee/advisory-committee",
     },
     {
-      title: "Core Organizing Committee",
-      href: "/committee/core-organizinggroup",
+      title: "CF IIITs Steering Committee",
+      href: "/committee/cfiiits-steering-committee",
     },
     {
-      title: "CICT 2025, Ninth IEEE, IIITDM Kancheepuram",
+      title: "Organizing Chairs",
+      href: "/committee/organizing-chair",
+    },
+    {
+      title: "All Committees",
       href: "/committee/all-committees",
     },
   ],
