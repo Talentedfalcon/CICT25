@@ -73,6 +73,16 @@ export const navItems = {
       href: "/calls/submission-guidelines",
     },
   ],
+  Sponsorship:[
+    {
+      title: "Sponsors",
+      href: "/sponsors",
+    },
+    {
+      title: "Call for Sponsors",
+      href: "/sponsors/call-sponsors"
+    }
+  ],
   Registration: [
     {
       title: "Registration",
@@ -82,17 +92,19 @@ export const navItems = {
       title: "Pay Online",
       href: "/registration/pay-online",
     },
+  ],
+  Venue:[
     {
-      title: "Sponsors",
-      href: "/registration/sponsors",
-    },
-    {
-      title: "Attractions",
-      href: "/registration/attractions",
+      title: "Hostel Accomodation",
+      href: "https://iiitdm.ac.in/hostel"
     },
     {
       title: "Hotels Nearby",
-      href: "/registration/accomodation",
+      href: "/venue/accomodation",
+    },
+    {
+      title: "Attractions",
+      href: "/venue/attractions",
     },
   ],
   Events: [
