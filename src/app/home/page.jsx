@@ -109,7 +109,7 @@ const Home=()=>{
         </div>
     </div>
 
-    <div className="pb-24 bg-[#222121]">
+    <div className="pb-24 bg-[#222121] flex justify-center align-center">
         <InfoCards/>
     </div>
     
