@@ -34,14 +34,14 @@ const Page = () => {
               <div className='my-1'>Camera Ready submission and Mandatory Registration: 31st August 2025</div>
             </div>
           </div>
-          <div className="relative w-full md:w-1/2 lg:h-[1100px] h-[500px] flex items-start">
+          {/* <div className="relative w-full md:w-1/2 lg:h-[1100px] h-[500px] flex items-start">
             <Image 
-              src="/callforpaper/image.png" 
+              src="" 
               alt="call for paper" 
               fill 
               className="object-fit"
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </>

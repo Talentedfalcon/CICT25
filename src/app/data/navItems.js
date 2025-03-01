@@ -73,6 +73,45 @@ export const navItems = {
       href: "/calls/submission-guidelines",
     },
   ],
+  Events: [
+    {
+      title: "Keynote Speaker",
+      href: "/events/keynote-speaker",
+    },
+    {
+      title: "Tutorial",
+      href: "/events/tutorial",
+    },
+    {
+      title: "Panel Discussions",
+      href: "/events/panel-discussions",
+    },
+    {
+      title: "Regular Track Schedule",
+      href: "/events/regular-track-schedule",
+    },
+    {
+      title: "Special Track Schedule",
+      href: "/events/special-track-schedule",
+    },
+    {
+      title: "Symposium",
+      subItems: [
+        {
+          title: "PhD Symposium",
+          href: "/events/symposium/phd-symposium",
+        },
+        {
+          title: "MTech Symposium",
+          href: "/events/symposium/mtech-symposium",
+        },
+      ],
+    },
+    {
+      title: "Schedule",
+      href: "/events/schedule",
+    },
+  ],
   Venue:[
     {
       title: "Hostel Accomodation",
@@ -107,38 +146,5 @@ export const navItems = {
       href: "/sponsors/call-sponsors"
     }
   ],
-  Events: [
-    {
-      title: "Keynote Speaker",
-      href: "/events/keynote-speaker",
-    },
-    {
-      title: "Tutorial",
-      href: "/events/tutorial",
-    },
-    {
-      title: "Panel Discussions",
-      href: "/events/panel-discussions",
-    },
-    {
-      title: "Regular Track Schedule",
-      href: "/events/regular-track-schedule",
-    },
-    {
-      title: "Special Track Schedule",
-      href: "/events/special-track-schedule",
-    },
-    {
-      title: "PhD Symposium",
-      href: "/events/phd-symposium",
-    },
-    {
-      title: "MTech Symposium",
-      href: "/events/mtech-symposium",
-    },
-    {
-      title: "Schedule",
-      href: "/events/schedule",
-    },
-  ],
+  
 };
