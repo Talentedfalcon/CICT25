@@ -13,9 +13,11 @@ function OrganizerCards(){
                 >
                     <img className="w-fit" src={college.logo}/>
                 </div>
-                <div className="my-2 text-center text-xl font-bold">
-                    {college.name}
-                </div>
+                <a href={college.link} target="_blank">
+                    <div className="my-2 text-center text-xl font-bold duration-75 hover:cursor-pointer hover:text-yellow-500">
+                        {college.name}
+                    </div>
+                </a>
                 <div className="text-center">
                     {college.title}
                 </div>
