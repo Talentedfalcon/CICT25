@@ -2,15 +2,15 @@ import { title } from "process";
 
 // data/navItems.js
 export const navItems = {
-  Home: [
+  About: [
     {
-      title: "Home",
-      href: "/",
+      title: "About CICT",
+      href: "/home/about-cict",
     },
     {
-      title: "About Us",
-      href: "/home/about",
-    },
+      title: "About IIITDM Kancheepuram",
+      href: "https://iiitdm.ac.in/institute/about",
+    }
   ],
   Committee: [
     {
@@ -73,26 +73,6 @@ export const navItems = {
       href: "/calls/submission-guidelines",
     },
   ],
-  Sponsorship:[
-    {
-      title: "Sponsors",
-      href: "/sponsors",
-    },
-    {
-      title: "Call for Sponsors",
-      href: "/sponsors/call-sponsors"
-    }
-  ],
-  Registration: [
-    {
-      title: "Registration",
-      href: "/registration/registration",
-    },
-    {
-      title: "Pay Online",
-      href: "/registration/pay-online",
-    },
-  ],
   Venue:[
     {
       title: "Hostel Accomodation",
@@ -106,6 +86,26 @@ export const navItems = {
       title: "Attractions",
       href: "/venue/attractions",
     },
+  ],
+  Registration: [
+    {
+      title: "Registration",
+      href: "/registration/registration",
+    },
+    {
+      title: "Pay Online",
+      href: "/registration/pay-online",
+    },
+  ],
+  Sponsorship:[
+    {
+      title: "Sponsors",
+      href: "/sponsors",
+    },
+    {
+      title: "Call for Sponsors",
+      href: "/sponsors/call-sponsors"
+    }
   ],
   Events: [
     {

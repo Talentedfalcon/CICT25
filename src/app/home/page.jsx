@@ -121,7 +121,7 @@ const Home=()=>{
                     About CICT 2025
                 </span>
                 <span className="text-[#222121] font-extrabold text-3xl">
-                    IEEE CICT 2025 Indian Institute of Information Technology, Design and Manufacturing Kancheepuram
+                    IEEE CICT 2025<br/>IIITDM Kancheepuram
                 </span>
                 <div className="text-xl text-gray-700">
                     CICT is an annual event organized by five Indian Institutes of Information Technology (IIITs), namely:
