@@ -61,7 +61,7 @@ const page = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col items-center gap-8 px-6 py-10">
+    <div className="min-h-screen flex flex-col items-center gap-8 px-6 py-10">
       <h1 className="text-4xl font-semibold text-[#222121] mb-8 text-center">Nearby Hotels for Your Stay</h1>
       <div className="flex flex-col gap-8">
         {hotels.map((hotel, index) => (

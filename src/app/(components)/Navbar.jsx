@@ -190,7 +190,7 @@ export default function Component() {
           className="flex flex-row items-center gap-3 hover:opacity-90 transition-opacity"
         >
           <Image
-            src="/logos/image.png"
+            src="/logos/iiitdm_logo.png"
             alt="IIITDM Logo"
             width={48}
             height={48}
@@ -219,7 +219,7 @@ export default function Component() {
           className="flex flex-row items-center gap-3 hover:opacity-90 transition-opacity"
         >
           <Image
-            src="/logos/image.png"
+            src="/logos/iiitdm_logo.png"
             alt="IIITDM Logo"
             width={64}
             height={64}
