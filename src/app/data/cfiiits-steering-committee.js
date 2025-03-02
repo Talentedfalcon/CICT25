@@ -49,7 +49,7 @@ export const CFIIITSSteeringCommittee = {
     {
       image: "/assets/images/committee/p3.png",
       title: "Prof. Neetesh Purohit",
-      description: "IIITA",
+      description: "IIIT Allahabad",
       socialLinks: {
         facebook: "https://profile.iiita.ac.in/np/",
         linkedin: "#"
@@ -76,7 +76,7 @@ export const CFIIITSSteeringCommittee = {
     {
       image: "/assets/images/committee/p4.png",
       title: "Dr. Satish K. Singh",
-      description: "IIITA",
+      description: "IIIT Allahabad",
       socialLinks: {
         facebook: "https://it.iiita.ac.in/?pg=facultypage&uid=sk.singh",
         linkedin: "https://www.linkedin.com/in/satish-k-singh-2b372bba/"

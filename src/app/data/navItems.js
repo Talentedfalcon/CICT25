@@ -1,14 +1,16 @@
+import { title } from "process";
+
 // data/navItems.js
 export const navItems = {
-  Home: [
+  About: [
     {
-      title: "Home",
-      href: "/",
+      title: "About CICT",
+      href: "/home/about-cict",
     },
     {
-      title: "About Us",
-      href: "/home/about",
-    },
+      title: "About IIITDM Kancheepuram",
+      href: "https://iiitdm.ac.in/institute/about",
+    }
   ],
   Committee: [
     {
@@ -16,23 +18,27 @@ export const navItems = {
       href: "/committee/patrons",
     },
     {
-      title: "Organizing Chair",
-      href: "/committee/organizing-chair",
+      title: "Co-Patrons",
+      href: "/committee/co-patrons"
     },
     {
-      title: "CFIIITs Steering Committee",
-      href: "/committee/cfiiits-steering-committee",
+      title: "General Chair",
+      href: "/committee/general-chair",
     },
     {
       title: "Advisory Committee",
-      href: "/committee/international-advisory-committee",
+      href: "/committee/advisory-committee",
     },
     {
-      title: "Core Organizing Committee",
-      href: "/committee/core-organizinggroup",
+      title: "CF IIITs Steering Committee",
+      href: "/committee/cfiiits-steering-committee",
     },
     {
-      title: "CICT 2025, Ninth IEEE, IIITDM Kancheepuram",
+      title: "Organizing Chairs",
+      href: "/committee/organizing-chair",
+    },
+    {
+      title: "All Committees",
       href: "/committee/all-committees",
     },
   ],
@@ -67,28 +73,6 @@ export const navItems = {
       href: "/calls/submission-guidelines",
     },
   ],
-  Registration: [
-    {
-      title: "Registration",
-      href: "/registration/registration",
-    },
-    {
-      title: "Pay Online",
-      href: "/registration/pay-online",
-    },
-    {
-      title: "Sponsors",
-      href: "/registration/sponsors",
-    },
-    {
-      title: "Attractions",
-      href: "/registration/attractions",
-    },
-    {
-      title: "Hotels Nearby",
-      href: "/registration/accomodation",
-    },
-  ],
   Events: [
     {
       title: "Keynote Speaker",
@@ -111,16 +95,56 @@ export const navItems = {
       href: "/events/special-track-schedule",
     },
     {
-      title: "PhD Symposium",
-      href: "/events/phd-symposium",
-    },
-    {
-      title: "MTech Symposium",
-      href: "/events/mtech-symposium",
+      title: "Symposium",
+      subItems: [
+        {
+          title: "PhD Symposium",
+          href: "/events/symposium/phd-symposium",
+        },
+        {
+          title: "MTech Symposium",
+          href: "/events/symposium/mtech-symposium",
+        },
+      ],
     },
     {
       title: "Schedule",
       href: "/events/schedule",
     },
   ],
+  Venue:[
+    {
+      title: "Hostel Accomodation",
+      href: "https://iiitdm.ac.in/hostel"
+    },
+    {
+      title: "Hotels Nearby",
+      href: "/venue/accomodation",
+    },
+    {
+      title: "Attractions",
+      href: "/venue/attractions",
+    },
+  ],
+  Registration: [
+    {
+      title: "Registration",
+      href: "/registration/registration",
+    },
+    {
+      title: "Pay Online",
+      href: "/registration/pay-online",
+    },
+  ],
+  Sponsorship:[
+    {
+      title: "Sponsors",
+      href: "/sponsors",
+    },
+    {
+      title: "Call for Sponsors",
+      href: "/sponsors/call-sponsors"
+    }
+  ],
+  
 };

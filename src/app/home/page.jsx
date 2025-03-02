@@ -7,6 +7,7 @@ import { homeUsefulButtons } from "../data/homeUsefulButtons"
 import OrganizerCards from "./OrganizerCards";
 import PreviousOrganizersList from "./PreviousOrganizerList";
 import CountDown from "../(components)/CountDown";
+import ImageSlide from "./ImageSlide";
 
 const buttonList=()=>{
     const buttons=homeUsefulButtons.map((button,index)=>{
@@ -55,35 +56,34 @@ const Home=()=>{
                 CERTIFICATES
             </button> */}
             <div className="text-lg">
-                The 9th edition of the Annual IEEE International Conference on <span className="font-bold">Information and Communication Technology</span> (CICT) jointly organized by all CFIIITs.
+                The 9th edition of the Annual IEEE International Conference on <span className="font-bold">Information and Communication Technology</span> (CICT) jointly organized by all Centrally Funded Indian Institutes of Information Technology (CFIIITs).
                 <div className="mt-10">
-    <h2 className="text-lg font-bold mb-4">IMPORTANT DATES</h2>
-    <table className="w-full border-collapse border border-gray-300">
-        <thead>
-            <tr className="bg-gray-200 text-left">
-                <th className="border border-gray-300 px-4 py-2">Event</th>
-                <th className="border border-gray-300 px-4 py-2">Deadline</th>
-            </tr>
-        </thead>
-        <tbody>
-            {[
-                { event: "Paper Submission Deadline", date: "31st May 2025" },
-                { event: "Paper Acceptance Notification", date: "31st July 2025" },
-                { event: "Deadline for Camera-Ready Submission", date: "31st August 2025" },
-                { event: "Deadline for Early Bird Registration", date: "30th September 2025" },
-                { event: "Deadline for Standard Registration", date: "30th October 2025" }
-            ].map((item, index) => (
-                <tr key={index} className="border border-gray-300 text-left">
-                    <td className="border border-gray-300 px-4 py-2">{item.event}</td>
-                    <td className="border border-gray-300 px-4 py-2 text-red-500 font-bold">
-                        {item.date}
-                    </td>
-                </tr>
-            ))}
-        </tbody>
-    </table>
-</div>
-
+                    <h2 className="text-lg font-bold mb-4">IMPORTANT DATES</h2>
+                        <table className="w-full border-collapse border border-gray-300">
+                            <thead>
+                                <tr className="bg-gray-200 text-left">
+                                    <th className="border border-gray-300 px-4 py-2">Event</th>
+                                    <th className="border border-gray-300 px-4 py-2">Deadline</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {[
+                                    { event: "Paper Submission Deadline", date: "31st May 2025" },
+                                    { event: "Paper Acceptance Notification", date: "31st July 2025" },
+                                    { event: "Deadline for Camera-Ready Submission", date: "31st August 2025" },
+                                    { event: "Deadline for Early Bird Registration", date: "30th September 2025" },
+                                    { event: "Deadline for Standard Registration", date: "30th October 2025" }
+                                ].map((item, index) => (
+                                    <tr key={index} className="border border-gray-300 text-left">
+                                        <td className="border border-gray-300 px-4 py-2">{item.event}</td>
+                                        <td className="border border-gray-300 px-4 py-2 text-red-500 font-bold">
+                                            {item.date}
+                                        </td>
+                                    </tr>
+                                ))}
+                            </tbody>
+                        </table>
+                </div>
             </div>
             <div className="flex flex-col md:flex-row">
                 <a href="/calls/papers">
@@ -105,11 +105,10 @@ const Home=()=>{
             </div>
             <div className="italic">* IEEE Approval under process</div>
         </div>
-        <div className="bg-[url(/home_img/institute.jpg)] w-full h-[50vh] md:h-auto bg-cover bg-no-repeat bg-center">
-        </div>
+        <ImageSlide/>
     </div>
 
-    <div className="pb-24 bg-[#222121]">
+    <div className="pb-24 bg-[#222121] flex justify-center align-center">
         <InfoCards/>
     </div>
     
@@ -121,10 +120,10 @@ const Home=()=>{
                     About CICT 2025
                 </span>
                 <span className="text-[#222121] font-extrabold text-3xl">
-                    IEEE CICT 2025 Indian Institute of Information Technology, Design and Manufacturing Kancheepuram
+                    IEEE CICT 2025<br/>IIITDM Kancheepuram
                 </span>
                 <div className="text-xl text-gray-700">
-                    The International Conference on Information and Communication Technology (CICT) is an annual event organized by five Indian Institutes of Information Technology (IIITs), namely:
+                    CICT is an annual event organized by five Indian Institutes of Information Technology (IIITs), namely:
                     <ul className="list-disc ml-24">
                         <li>Indian Institute of Information Technology, Design and Manufacturing Kancheepuram</li>
                         <li>Indian Institute of Information Technology,  Allahabad</li>

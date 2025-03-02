@@ -1,30 +1,25 @@
-import React from 'react';
-import ScrollFadeIn from '@/app/(components)/scroll-animation';
-import SocialMediaCard from '@/app/(components)/SocialMediaCard';
-import { OrganizingChairs } from '@/app/data/organizing-chairs';
+"use client";
 
-const page = () => {
+import React, { useState } from "react";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardTitle,
+} from "../../../components/ui/card";
+
+import { TechnicalProgramCommittee } from "../../data/organizing-chair";
+import SocialMediaCard from "@/app/(components)/SocialMediaCard";
+
+export default function TechnicalCommitteePage() {
   return (
-    <div className="min-h-screen bg-white flex flex-col items-center gap-4 px-4">
-      <div className="flex h-16 items-center font-sans text-5xl text-[#222121] font-bold mt-10">
-        Organising Chair
+    <main className="container mx-auto my-10 px-4">
+      <h1 className="text-5xl font-bold text-[#222121] text-center mb-10">Organizing Chairs</h1>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+        {TechnicalProgramCommittee.Members.map((member, index) => (
+          <SocialMediaCard key={index} person={member} />
+        ))}
       </div>
-      
-      {OrganizingChairs.OrganizingChairs.map((chairs, index) => (
-        <div key={index} className="w-full mb-12">
-
-
-          <ScrollFadeIn>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:mx-40 justify-center gap-8">
-              {chairs.members.map((member, memberIndex) => (
-                <SocialMediaCard key={memberIndex} person={member} />
-              ))}
-            </div>
-          </ScrollFadeIn>
-        </div>
-      ))}
-    </div>
+    </main>
   );
 }
-
-export default page;

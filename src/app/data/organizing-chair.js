@@ -1,3 +1,5 @@
+import { title } from "process";
+
 export const TechnicalProgramCommittee = {
   "Members": [
   {
@@ -7,15 +9,6 @@ export const TechnicalProgramCommittee = {
       socialLinks: {
         facebook: "https://www.iiitdm.ac.in/people/faculty/gowri@iiitdm.ac.in",
         linkedin: "https://in.linkedin.com/in/gowri-annasamy-75b53573"
-      }
-  },
-  {
-      title: "Dr. Jayashree Mayank",
-      description: "CSE, IIITDM Kancheepuram",
-      image: "/assets/images/technical-program-committee/p2.jpg",
-      socialLinks: {
-        facebook: "https://www.iiitdm.ac.in/people/faculty/jaishree@iiitdm.ac.in",
-        linkedin: "https://in.linkedin.com/in/jaishree-mayank-55597471"
       }
   },
   {
@@ -37,9 +30,18 @@ export const TechnicalProgramCommittee = {
       }
   },
   {
+      title:"Dr. Noor Mohammed SK",
+      description: "CSE, IIITDM Kancheepuram",
+      image:"/assets/images/technical-program-committee/p5.jpg",
+      socialLinks:{
+        facebook: "https://www.iiitdm.ac.in/people/faculty/noor@iiitdm.ac.in",
+        linkedin: "https://in.linkedin.com/in/noor-mahammad-sk-494a9211"
+      }
+  },
+  {
       title: "Dr. Parvathy Das",
       description: "S & H, IIITDM Kancheepuram",
-      image: "/assets/images/technical-program-committee/p5.jpg",
+      image: "/assets/images/technical-program-committee/p6.jpg",
       socialLinks: {
         facebook: "https://www.iiitdm.ac.in/people/faculty/parvathydas@iiitdm.ac.in",
         linkedin: "https://in.linkedin.com/in/parvathy-das-77ab88224"
@@ -48,16 +50,25 @@ export const TechnicalProgramCommittee = {
   {
       title: "Dr. Pradhan K P",
       description: "ECE, IIITDM Kancheepuram",
-      image: "/assets/images/technical-program-committee/p6.jpg",
+      image: "/assets/images/technical-program-committee/p7.jpg",
       socialLinks: {
         facebook: "https://www.iiitdm.ac.in/people/faculty/kppradhan@iiitdm.ac.in",
         linkedin: "https://be.linkedin.com/in/dr-k-p-pradhan-0173544b"
       }
   },
   {
+      title: "Dr. Premkumar K",
+      description: "ECE, IIITDM Kancheepuram",
+      image:"/assets/images/technical-program-committee/p8.jpg",
+      socialLinks: {
+        facebook: "https://www.iiitdm.ac.in/people/faculty/kpk@iiitdm.ac.in",
+        linkedin: "https://in.linkedin.com/in/premkumar-karumbu-0a388b5"
+      }
+  },
+  {
       title: "Dr. Preeth R",
       description: "CSE, IIITDM Kancheepuram",
-      image: "/assets/images/technical-program-committee/p7.jpg",
+      image: "/assets/images/technical-program-committee/p9.jpg",
       socialLinks: {
         facebook: "https://www.iiitdm.ac.in/people/faculty/preeth@iiitdm.ac.in",
         linkedin: "https://in.linkedin.com/in/preethr"
@@ -66,7 +77,7 @@ export const TechnicalProgramCommittee = {
   {
       title: "Dr. Raghavan S",
       description: "CSE, IIITDM Kancheepuram",
-      image: "/assets/images/technical-program-committee/p8.jpg",
+      image: "/assets/images/technical-program-committee/p10.jpg",
       socialLinks: {
         facebook: "http://iiitdm.ac.in/people/faculty/raghavans@iiitdm.ac.in",
         linkedin: "https://www.iiitdm.ac.in/people/faculty"
@@ -75,7 +86,7 @@ export const TechnicalProgramCommittee = {
   {
       title: "Dr. Rajnish Mallick",
       description: "SIDI, IIITDM Kancheepuram",
-      image: "/assets/images/technical-program-committee/p9.jpg",
+      image: "/assets/images/technical-program-committee/p11.jpg",
       socialLinks: {
         facebook: "https://www.iiitdm.ac.in/people/faculty/rajnish.mallick@iiitdm.ac.in",
         linkedin: "https://in.linkedin.com/in/drmallickrajnish"
@@ -84,7 +95,7 @@ export const TechnicalProgramCommittee = {
   {
       title: "Dr. Senthilkumaran K",
       description: "ME, IIITDM Kancheepuram",
-      image: "/assets/images/technical-program-committee/p10.jpg",
+      image: "/assets/images/technical-program-committee/p12.jpg",
       socialLinks: {
         facebook: "https://www.iiitdm.ac.in/people/faculty/skumaran@iiitdm.ac.in",
         linkedin: "https://in.linkedin.com/in/senthilkumarank"
@@ -93,7 +104,7 @@ export const TechnicalProgramCommittee = {
   {
       title: "Dr. Sivaprasad A V",
       description: "ME, IIITDM Kancheepuram",
-      image: "/assets/images/technical-program-committee/p11.jpg",
+      image: "/assets/images/technical-program-committee/p13.jpg",
       socialLinks: {
         facebook: "https://www.iiitdm.ac.in/people/faculty/avs@iiitdm.ac.in",
         linkedin: "https://www.iiitdm.ac.in/people/faculty"
@@ -102,7 +113,7 @@ export const TechnicalProgramCommittee = {
   {
       title: "Dr. Tejendra Dixit",
       description: "ECE, IIITDM Kancheepuram",
-      image: "/assets/images/technical-program-committee/p12.jpg",
+      image: "/assets/images/technical-program-committee/p14.jpg",
       socialLinks: {
         facebook: "https://www.iiitdm.ac.in/people/faculty/tdixit@iiitdm.ac.in",
         linkedin: "https://in.linkedin.com/in/tejendra-dixit-62270126"
@@ -112,7 +123,7 @@ export const TechnicalProgramCommittee = {
   {
       title: "Dr. Uttam Pal Mrinal",
       description: "ECE, IIITDM Kancheepuram",
-      image: "/assets/images/technical-program-committee/p13.jpg",
+      image: "/assets/images/technical-program-committee/p15.jpg",
       socialLinks: {
         facebook: "https://www.iiitdm.ac.in/people/faculty/uttampal@iiitdm.ac.in",
         linkedin: "https://in.linkedin.com/in/uttampal"
@@ -122,7 +133,7 @@ export const TechnicalProgramCommittee = {
   {
       title: "Dr. Eshwarmoorthy KV",
       description: "IIITDM Kurnool",
-      image: "/assets/images/technical-program-committee/p14.jpg",
+      image: "/assets/images/technical-program-committee/p16.jpg",
       socialLinks: {
         facebook: "https://iiitk.ac.in/Dr.-Eswaramoorthy-K-V/page",
         linkedin: "https://in.linkedin.com/in/eswaramoorthykv"

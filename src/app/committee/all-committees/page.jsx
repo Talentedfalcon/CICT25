@@ -3,11 +3,11 @@
 import React from "react";
 
 import { Patrons } from "@/app/data/patrons";
-import { GeneralChair } from "@/app/data/general-chair";
-import { InternationalAdvisoryCommittee } from "@/app/data/international-advisory-committee";
+import { InternationalAdvisoryCommittee } from "@/app/data/advisory-committee";
 import { CFIIITSSteeringCommittee } from "@/app/data/cfiiits-steering-committee";
-import { TechnicalProgramCommittee } from "@/app/data/technical-program-committee";
-import { OrganizingChairs } from "@/app/data/organizing-chairs";
+import { TechnicalProgramCommittee } from "@/app/data/organizing-chair";
+import { OrganizingChairs } from "@/app/data/general-chair";
+import { Co_Patrons } from "@/app/data/co_patrons";
 
 const CommitteeSection = ({ title, members }) => (
   <div className="gap-8">
@@ -15,7 +15,7 @@ const CommitteeSection = ({ title, members }) => (
     <ul className="list-disc list-inside">
       {members && members.map((member, index) => (
         <li key={index} className="text-base text-gray-600">
-          {member.title}
+          {member.title}, <span className="italic text-sm">( {member.description} )</span>
         </li>
       ))}
     </ul>
@@ -29,13 +29,13 @@ export default function AllCommitteesPage() {
       <h1 className="text-5xl text-[#222121] font-bold text-center mb-7">Committees and List of Experts</h1>
       <h2 className="text-2xl font-bold text-[#222121] text-center mb-10">CICT-2025: Ninth IEEE, IIITDM Kancheepuram</h2>
       <CommitteeSection title="Patrons" members={Patrons.Patrons} />
-      <CommitteeSection title="General Chairs" members={GeneralChair.Members} />
-      <CommitteeSection title="International Advisory Committee" members={InternationalAdvisoryCommittee.ExpertsFromIndia} />
-      <CommitteeSection title="CFIIITS Steering Committee" members={CFIIITSSteeringCommittee.Members} />
-      <CommitteeSection title="Technical Program Committee" members={TechnicalProgramCommittee.Members} />
+      <CommitteeSection title="Co-Patrons" members={Co_Patrons.Patrons} />
+      <CommitteeSection title="General Chairs" members={OrganizingChairs.OrganizingChairs[0].members} />
+      <CommitteeSection title="Advisory Committee" members={InternationalAdvisoryCommittee.ExpertsFromIndia} />
+      <CommitteeSection title="CF IIITS Steering Committee" members={CFIIITSSteeringCommittee.Members} />
+      <CommitteeSection title="Organizing Chairs" members={TechnicalProgramCommittee.Members} />
       {/* Have to fix the below */}
       {/*Fixed. You are welcome*/}
-      <CommitteeSection title="Organizing Chairs" members={OrganizingChairs.OrganizingChairs[0].members} /> 
     </main>
   );
 }
