@@ -56,7 +56,7 @@ const Home=()=>{
                 CERTIFICATES
             </button> */}
             <div className="text-lg">
-                The 9th edition of the Annual IEEE International Conference on <span className="font-bold">Information and Communication Technology</span> (CICT) jointly organized by all Centrally Funded Indian Institutes of Information Technology (CFIIITs).
+                The 9th edition of the Annual IEEE International Conference on <span className="font-bold">Information and Communication Technology</span> (CICT) jointly organized by all Centrally Funded Indian Institute of Information Technology (CFIIITs).
                 <div className="mt-10">
                     <h2 className="text-lg font-bold mb-4">IMPORTANT DATES</h2>
                         <table className="w-full border-collapse border border-gray-300">

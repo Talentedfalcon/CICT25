@@ -13,9 +13,20 @@ export const regularTrack = [
     "RF, Microwave, and THz Communication",
     "Robotics and Autonomous Vehicles",
     "Semantic Communication",
-    "Speech, Biomedical, RADAR Signal Processing",
-    "Wireless Communication Technologies"
-  ];
+    "Wireless Communication Technologies",
+    "Artificial Intelligence and Machine Learning for ICT",
+    "Generative AI for ICT",
+    "Speech Processing",
+    "Biomedical Signal and Image Processing",
+    "RADAR and SONAR Signal Processing",
+    "Computer Vision",
+    "Pattern Recognition",
+    "Network Optimization",
+    "Data Science",
+    "AR, VR, XR for ICT",
+    "Multimedia Signal Processing",
+    "Digital Turns"
+  ].sort()
 
   export const specialTrack = [
     "Digital Entrepreneruship Education",
@@ -26,4 +37,4 @@ export const regularTrack = [
     "ICT Applications to Business, Finance and Marketing",
     "ICT Applications to Humanities and Social Sciences",
     "ICT applications to Science of Happiness"
-  ];
+  ].sort();
