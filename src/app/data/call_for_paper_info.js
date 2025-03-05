@@ -25,7 +25,7 @@ export const regularTrack = [
     "Data Science",
     "AR, VR, XR for ICT",
     "Multimedia Signal Processing",
-    "Digital Turns"
+    "Digital Twins"
   ].sort()
 
   export const specialTrack = [
