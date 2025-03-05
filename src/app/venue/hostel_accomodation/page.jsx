@@ -14,7 +14,7 @@ const page = ()=>{
                         </div>
                         <div className="text-center">
                             Boys and Girls Hostels for student participants<br/>
-                            <span className="text-sm italic">(INR 200 per day per person)</span>
+                            <span className="text-sm italic">(INR 350 per day per person)</span>
                         </div>
                     </div>
                 </div>
