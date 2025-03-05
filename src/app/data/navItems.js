@@ -115,11 +115,11 @@ export const navItems = {
   Venue:[
     {
       title: "Hostel Accomodation",
-      href: "https://iiitdm.ac.in/hostel"
+      href: "/venue/hostel_accomodation"
     },
     {
       title: "Hotels Nearby",
-      href: "/venue/accomodation",
+      href: "/venue/hotels_nearby",
     },
     {
       title: "Attractions",
