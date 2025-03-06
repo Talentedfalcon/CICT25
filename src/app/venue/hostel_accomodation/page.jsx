@@ -15,6 +15,11 @@ const page = ()=>{
                         <div className="text-center">
                             Boys and Girls Hostels for student participants<br/>
                             <span className="text-sm italic">(INR 350 per day per person)</span>
+                            <div className="mt-5">
+                                <a href="https://iiitdm.ac.in/hostel" target="_blank" className="text-blue-600 hover:underline active:text-blue-400">
+                                    Registration link
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
