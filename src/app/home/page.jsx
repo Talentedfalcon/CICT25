@@ -51,12 +51,13 @@ const Home=()=>{
             </div>
             <div className="text-6xl font-black text-[#222121] my-4">
                 IEEE CICT 2025
+                <div className="text-3xl font-black m-4">19th-21st December, 2025</div>
             </div>
             {/* <button className="bg-[#0800F4] w-fit px-8 py-4 text-white font-bold rounded-md my-4">
                 CERTIFICATES
             </button> */}
             <div className="text-lg">
-            The 9th edition of the Annual IEEE International Conference on Information and Communication Technology (CICT) 19-21 Dec, 2025 jointly organized by all Centrally Funded Indian Institute of Information Technology (CFIIITs).
+            The 9th edition of the Annual IEEE International Conference on Information and Communication Technology (CICT) jointly organized by all Centrally Funded Indian Institute of Information Technology (CFIIITs).
                 <div className="mt-10">
                     <h2 className="text-lg font-bold mb-4">IMPORTANT DATES</h2>
                         <table className="w-full border-collapse border border-gray-300">
