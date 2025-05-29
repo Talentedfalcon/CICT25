@@ -144,7 +144,6 @@ export const InternationalAdvisoryCommittee = {
         linkedin: "https://it.linkedin.com/in/ggruosso",
       },
     },
-     },
     {
       title: "Dr. Archana Kamal",
       description: "Northwestern University",
