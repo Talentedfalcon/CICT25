@@ -144,7 +144,6 @@ export const InternationalAdvisoryCommittee = {
         linkedin: "https://it.linkedin.com/in/ggruosso",
       },
     },
-
      },
     {
       title: "Dr. Archana Kamal",
@@ -155,6 +154,5 @@ export const InternationalAdvisoryCommittee = {
         linkedin: "https://www.linkedin.com/in/archanakamal/",
       },
     },
-    
   ],
 };
